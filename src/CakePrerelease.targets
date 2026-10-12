@@ -1,0 +1,30 @@
+<Project>
+  <PropertyGroup>
+    <CakeVersion Condition="'$(CakePrereleaseCoreVersion)' != ''">$(CakePrereleaseCoreVersion)</CakeVersion>
+    <NoWarn>$(NoWarn);CCG0007;CCG0009;CCG0010</NoWarn>
+    <EnableSourceLink>false</EnableSourceLink>
+    <PublishRepositoryUrl>false</PublishRepositoryUrl>
+    <EmbedUntrackedSources>false</EmbedUntrackedSources>
+    <DeterministicSourcePaths>false</DeterministicSourcePaths>
+    <EnableSourceControlManagerQueries>false</EnableSourceControlManagerQueries>
+  </PropertyGroup>
+  <ItemGroup>
+    <CakeContribGuidelinesOmitTargetFramework Include="net6.0" />
+    <CakeContribGuidelinesOmitTargetFramework Include="net7.0" />
+    <CakeContribGuidelinesOmitTargetFramework Include="net8.0" />
+    <CakeContribGuidelinesOmitTargetFramework Include="net9.0" />
+    <CakeContribGuidelinesOmitTargetFramework Include="net10.0" />
+    <CakeContribGuidelinesOmitTargetFramework Include="net11.0" />
+    <CakeContribGuidelinesOmitTargetFramework Include="netstandard2.0" />
+    <CakeContribGuidelinesOmitTargetFramework Include="net461" />
+    <CakeContribGuidelinesOmitTargetFramework Include="net472" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(CakePrereleaseCoreVersion)' != ''">
+    <PackageReference Update="Cake.Core" Version="$(CakePrereleaseCoreVersion)" />
+    <PackageVersion Update="Cake.Core" Version="$(CakePrereleaseCoreVersion)" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(CakePrereleaseCommonVersion)' != ''">
+    <PackageReference Update="Cake.Common" Version="$(CakePrereleaseCommonVersion)" />
+    <PackageVersion Update="Cake.Common" Version="$(CakePrereleaseCommonVersion)" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,47 @@
+name: Nightly
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch:
+    inputs:
+      package:
+        description: Package id filter
+        required: false
+        type: string
+      target:
+        description: Cake target
+        required: false
+        default: Test
+        type: string
+
+jobs:
+  test:
+    name: ${{ matrix.os }} ${{ matrix.framework }} ${{ matrix.shard }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 360
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-15-intel, ubuntu-latest, macos-latest, ubuntu-26.04-arm]
+        framework: [net10.0, net11.0]
+        shard: [1/1]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Install .NET SDK
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: ${{ matrix.framework == 'net10.0' && '10.0.x' || '11.0.x' }}
+          dotnet-quality: ${{ matrix.framework == 'net11.0' && 'preview' || '' }}
+
+      - name: Run integration tests
+        uses: cake-build/cake-action@v3.0.1
+        with:
+          file-path: cake.cs
+          target: ${{ github.event.inputs.target || 'Test' }}
+          arguments: |
+            framework: ${{ matrix.framework }}
+            package: ${{ github.event.inputs.package }}
+            shard: ${{ matrix.shard }}

@@ -1,0 +1,1164 @@
+[
+  {
+    "id": "Cake.7zip",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.7zip"
+  },
+  {
+    "id": "Cake.ActiveDirectory",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.ActiveDirectory"
+  },
+  {
+    "id": "Cake.AliaSql",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.AliaSql"
+  },
+  {
+    "id": "Cake.Android.Adb",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Android.Adb"
+  },
+  {
+    "id": "Cake.Android.AvdManager",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Android.AvdManager"
+  },
+  {
+    "id": "Cake.Android.SdkManager",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Android.SdkManager"
+  },
+  {
+    "id": "Cake.AndroidAppManifest",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.AndroidAppManifest"
+  },
+  {
+    "id": "Cake.Apigee",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Apigee"
+  },
+  {
+    "id": "Cake.AppCenter",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.AppCenter"
+  },
+  {
+    "id": "Cake.AppleSimulator",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.AppleSimulator"
+  },
+  {
+    "id": "Cake.AppVeyor",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.AppVeyor"
+  },
+  {
+    "id": "Cake.ArgumentBinder",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.ArgumentBinder"
+  },
+  {
+    "id": "Cake.ArgumentHelpers",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.ArgumentHelpers"
+  },
+  {
+    "id": "Cake.AsciiDoctorJ",
+    "kind": "addin",
+    "repository": "cake-contrib/cake.asciidoctorj"
+  },
+  {
+    "id": "Cake.AssemblyInfoReflector",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.AssemblyInfoReflector"
+  },
+  {
+    "id": "Cake.Aws.ElasticBeanstalk",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.AWS.ElasticBeanstalk"
+  },
+  {
+    "id": "Cake.Azure",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Azure"
+  },
+  {
+    "id": "Cake.AzureDevOps",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.AzureDevOps"
+  },
+  {
+    "id": "Cake.BitDiffer",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.BitDiffer"
+  },
+  {
+    "id": "Cake.Board.Asana",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Board"
+  },
+  {
+    "id": "Cake.Board.AzureBoards",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Board"
+  },
+  {
+    "id": "Cake.Bower",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Bower"
+  },
+  {
+    "id": "Cake.BrowserStack",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.BrowserStack"
+  },
+  {
+    "id": "Cake.BuildSystems.Module",
+    "kind": "module",
+    "repository": "cake-contrib/Cake.BuildSystems.Module",
+    "usings": [ "Cake.AzurePipelines.Module", "Cake.GitHubActions.Module", "Cake.GitLabCI.Module", "Cake.MyGet.Module", "Cake.TeamCity.Module", "Cake.TravisCI.Module" ]
+  },
+  {
+    "id": "Cake.Bumpy",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Bumpy"
+  },
+  {
+    "id": "Cake.Chocolatey.Module",
+    "kind": "module",
+    "repository": "cake-contrib/Cake.Chocolatey.Module",
+    "exclusions": [
+      {
+        "os": [
+          "linux",
+          "osx"
+        ],
+        "reason": "Chocolatey is Windows-only"
+      }
+    ]
+  },
+  {
+    "id": "Cake.Chutzpah",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Chutzpah"
+  },
+  {
+    "id": "Cake.CloudFormation",
+    "kind": "addin",
+    "repository": "cake-contrib/cake-cloudformation"
+  },
+  {
+    "id": "Cake.CMake",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.CMake"
+  },
+  {
+    "id": "Cake.Codecov",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Codecov"
+  },
+  {
+    "id": "Cake.CodeQL.Cli",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.CodeQL.Cli"
+  },
+  {
+    "id": "Cake.CoverageComparer",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.CoverageComparer"
+  },
+  {
+    "id": "Cake.Coveralls",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Coveralls"
+  },
+  {
+    "id": "Cake.CsvHelper",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.CsvHelper"
+  },
+  {
+    "id": "Cake.Curl",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Curl"
+  },
+  {
+    "id": "Cake.Dart",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Dart"
+  },
+  {
+    "id": "Cake.Debootstrap",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Debootstrap"
+  },
+  {
+    "id": "Cake.Discord",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Discord"
+  },
+  {
+    "id": "Cake.DNF.Module",
+    "kind": "module",
+    "repository": "cake-contrib/Cake.DNF.Module"
+  },
+  {
+    "id": "Cake.DocFx",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.DocFx"
+  },
+  {
+    "id": "Cake.DoInDirectory",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.DoInDirectory"
+  },
+  {
+    "id": "Cake.DotNetCoreEf",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.DotNetCoreEf",
+    "exclusions": [
+      {
+        "runner": [
+          "frosting"
+        ],
+        "reason": "References removed Cake 1.x Cake.Common.Tools.DotNetCore types"
+      }
+    ]
+  },
+  {
+    "id": "Cake.DotNetLocalTools.Module",
+    "kind": "module",
+    "repository": "cake-contrib/Cake.DotNetLocalTools.Module"
+  },
+  {
+    "id": "Cake.DotNetTool.Module",
+    "kind": "module",
+    "repository": "cake-contrib/Cake.DotNetTool.Module",
+    "exclusions": [
+      {
+        "runner": [
+          "tool",
+          "sdk",
+          "frosting"
+        ],
+        "reason": "Shipped in-box with Cake 7; NuGet 6.3.0 downgrades Cake.DotNetTool.Module"
+      }
+    ]
+  },
+  {
+    "id": "Cake.DotNetVersionDetector",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.DotNetVersionDetector"
+  },
+  {
+    "id": "Cake.Eazfuscator.Net",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Eazfuscator.Net"
+  },
+  {
+    "id": "Cake.Email",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Email"
+  },
+  {
+    "id": "Cake.Ember",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Ember"
+  },
+  {
+    "id": "Cake.Endpoint",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Endpoint"
+  },
+  {
+    "id": "Cake.EntityFramework6",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.EntityFramework6"
+  },
+  {
+    "id": "Cake.EntityFrameworkCore",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.EntityFrameworkCore"
+  },
+  {
+    "id": "Cake.ESLint",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.ESLint"
+  },
+  {
+    "id": "Cake.ExcelDnaPack",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.ExcelDnaPack"
+  },
+  {
+    "id": "Cake.ExtendedNuGet",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.ExtendedNuGet"
+  },
+  {
+    "id": "Cake.Fastlane",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Fastlane"
+  },
+  {
+    "id": "Cake.Figlet",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Figlet"
+  },
+  {
+    "id": "Cake.FileHelpers",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.FileHelpers"
+  },
+  {
+    "id": "Cake.FluentMigrator",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.FluentMigrator"
+  },
+  {
+    "id": "Cake.Flutter",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Flutter"
+  },
+  {
+    "id": "Cake.Frosting.Git",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake_Git",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Git" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.BuildServer" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer.AppVeyor",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.BuildServer.AppVeyor" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer.GitHubActions",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.BuildServer.GitHubActions" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.DocFx",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.DocFx",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.DocFx" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.EsLint",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.EsLint",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.EsLint" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.GitRepository",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.GitRepository",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.GitRepository" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.InspectCode",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.InspectCode",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.InspectCode" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.Markdownlint",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.Markdownlint",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.Markdownlint" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.MsBuild",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.MsBuild",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.MsBuild" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.PullRequests",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.PullRequests" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.AppVeyor",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.PullRequests.AppVeyor",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.PullRequests.AppVeyor" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.AzureDevOps",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.PullRequests.AzureDevOps",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.PullRequests.AzureDevOps" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.GitHubActions",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.PullRequests.GitHubActions",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.PullRequests.GitHubActions" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.Reporting",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.Reporting" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Console",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.Reporting.Console",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.Reporting.Console" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Generic",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.Reporting.Generic",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.Reporting.Generic" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Sarif",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.Reporting.Sarif",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.Reporting.Sarif" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.Sarif",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.Sarif",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.Sarif" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.Tap",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.Tap" ]
+  },
+  {
+    "id": "Cake.Frosting.Issues.Terraform",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.Terraform",
+    "runners": [ "sdk", "frosting" ],
+    "usings": [ "Cake.Issues.Terraform" ]
+  },
+  {
+    "id": "Cake.FtpFolderUpload",
+    "kind": "addin",
+    "repository": "cake-contrib/cake-ftpfolderupload"
+  },
+  {
+    "id": "Cake.Gem",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Gem"
+  },
+  {
+    "id": "Cake.Genymotion",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Genymotion"
+  },
+  {
+    "id": "Cake.Git",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake_Git",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.GitHub",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.GitHub"
+  },
+  {
+    "id": "Cake.Gitter",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Gitter"
+  },
+  {
+    "id": "Cake.Gradle",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Gradle"
+  },
+  {
+    "id": "Cake.Graph",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Graph"
+  },
+  {
+    "id": "Cake.Graphite",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Graphite"
+  },
+  {
+    "id": "Cake.grate",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.grate"
+  },
+  {
+    "id": "Cake.Grunt",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Grunt"
+  },
+  {
+    "id": "Cake.Gulp",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Gulp"
+  },
+  {
+    "id": "Cake.Hg",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Hg"
+  },
+  {
+    "id": "Cake.HgVersion",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.HgVersion"
+  },
+  {
+    "id": "Cake.HipChat",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.HipChat"
+  },
+  {
+    "id": "Cake.HockeyApp",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.HockeyApp"
+  },
+  {
+    "id": "Cake.Homebrew",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Homebrew"
+  },
+  {
+    "id": "Cake.Hosts",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Hosts"
+  },
+  {
+    "id": "Cake.Http",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Http"
+  },
+  {
+    "id": "Cake.Incubator",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Incubator"
+  },
+  {
+    "id": "Cake.ISO",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.ISO"
+  },
+  {
+    "id": "Cake.Issues",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.BuildServer",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.BuildServer.AppVeyor",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.BuildServer.GitHubActions",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.DocFx",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.DocFx",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.DupFinder",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.DupFinder",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.EsLint",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.EsLint",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.GitRepository",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.GitRepository",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.InspectCode",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.InspectCode",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.Markdownlint",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.Markdownlint",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.MsBuild",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.MsBuild",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.PullRequests",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.PullRequests",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.PullRequests.AppVeyor",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.PullRequests.AppVeyor",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.PullRequests.AzureDevOps",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.PullRequests.AzureDevOps",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.PullRequests.GitHubActions",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.PullRequests.GitHubActions",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.Reporting",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.Reporting",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.Reporting.Console",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.Reporting.Console",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.Reporting.Generic",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.Reporting.Generic",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.Reporting.Sarif",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.Reporting.Sarif",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.Sarif",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.Sarif",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.Tap",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Issues.Terraform",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Issues.Terraform",
+    "runners": [ "tool" ]
+  },
+  {
+    "id": "Cake.Jekyll",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Jekyll"
+  },
+  {
+    "id": "Cake.Jira",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Jira"
+  },
+  {
+    "id": "Cake.JMeter",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.JMeter"
+  },
+  {
+    "id": "Cake.Json",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Json"
+  },
+  {
+    "id": "Cake.Karma",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Karma"
+  },
+  {
+    "id": "Cake.Kubectl",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Kubectl"
+  },
+  {
+    "id": "Cake.Kudu",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Kudu"
+  },
+  {
+    "id": "Cake.Kudu.Client",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Kudu.Client"
+  },
+  {
+    "id": "Cake.LibMan",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.LibMan"
+  },
+  {
+    "id": "Cake.LicenseHeaderUpdater",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.LicenseHeaderUpdater"
+  },
+  {
+    "id": "Cake.LongPath.Module",
+    "kind": "module",
+    "repository": "cake-contrib/Cake.LongPath.Module",
+    "exclusions": [
+      {
+        "os": [
+          "linux",
+          "osx"
+        ],
+        "reason": "Uses Windows kernel32 long-path APIs"
+      }
+    ]
+  },
+  {
+    "id": "Cake.Mage",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Mage"
+  },
+  {
+    "id": "Cake.Markdown-Pdf",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Markdown-Pdf"
+  },
+  {
+    "id": "Cake.Markdownlint",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Markdownlint"
+  },
+  {
+    "id": "Cake.Mastodon",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Mastodon"
+  },
+  {
+    "id": "Cake.MicrosoftTeams",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.MicrosoftTeams"
+  },
+  {
+    "id": "Cake.MinVer",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.MinVer"
+  },
+  {
+    "id": "Cake.MSBuildTask",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.MSBuildTask"
+  },
+  {
+    "id": "Cake.MsDeploy",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.MsDeploy"
+  },
+  {
+    "id": "Cake.NDepend",
+    "kind": "addin",
+    "repository": "cake-contrib/cake-ndepend"
+  },
+  {
+    "id": "Cake.Newman",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Newman"
+  },
+  {
+    "id": "Cake.Npm",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Npm"
+  },
+  {
+    "id": "Cake.Npm.Module",
+    "kind": "module",
+    "repository": "cake-contrib/Cake.Npm.Module"
+  },
+  {
+    "id": "Cake.NSwag",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.NSwag"
+  },
+  {
+    "id": "Cake.Openshift",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Openshift"
+  },
+  {
+    "id": "Cake.Orchard",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Orchard"
+  },
+  {
+    "id": "Cake.Paket",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Paket",
+    "usings": [ "Cake.Paket.Addin" ],
+    "exclusions": [
+      {
+        "runner": [
+          "sdk",
+          "frosting"
+        ],
+        "reason": "net45-only package is not loadable on Cake.Sdk/Cake.Frosting"
+      }
+    ]
+  },
+  {
+    "id": "Cake.Paket.Module",
+    "kind": "module",
+    "repository": "cake-contrib/Cake.Paket",
+    "exclusions": [
+      {
+        "runner": [
+          "sdk",
+          "frosting"
+        ],
+        "reason": "net45-only package is not loadable on Cake.Sdk/Cake.Frosting"
+      }
+    ]
+  },
+  {
+    "id": "Cake.PathTildeHelper",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.PathTildeHelper"
+  },
+  {
+    "id": "Cake.PinNuGetDependency",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.PinNuGetDependency"
+  },
+  {
+    "id": "Cake.Plist",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Plist"
+  },
+  {
+    "id": "Cake.Pnpm",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Pnpm"
+  },
+  {
+    "id": "Cake.ProGet",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.ProGet"
+  },
+  {
+    "id": "Cake.Prompt",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Prompt"
+  },
+  {
+    "id": "Cake.ProtobufTools",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.ProtobufTools"
+  },
+  {
+    "id": "Cake.Pulumi",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Pulumi"
+  },
+  {
+    "id": "Cake.Raygun",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Raygun"
+  },
+  {
+    "id": "Cake.RepoVersion",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.RepoVersion"
+  },
+  {
+    "id": "Cake.ReSharperReports",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.ReSharperReports"
+  },
+  {
+    "id": "Cake.ResourceHacker",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.ResourceHacker"
+  },
+  {
+    "id": "Cake.Rest",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Rest"
+  },
+  {
+    "id": "Cake.ResxConverter",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.ResxConverter"
+  },
+  {
+    "id": "Cake.RSync",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.RSync"
+  },
+  {
+    "id": "Cake.ScheduledTasks",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.ScheduledTasks"
+  },
+  {
+    "id": "Cake.SemVer",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.SemVer"
+  },
+  {
+    "id": "Cake.SendGrid",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.SendGrid"
+  },
+  {
+    "id": "Cake.SFTP",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.SFTP"
+  },
+  {
+    "id": "Cake.SharePoint",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.SharePoint"
+  },
+  {
+    "id": "Cake.Slack",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Slack"
+  },
+  {
+    "id": "Cake.SmartAssembly",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.SmartAssembly"
+  },
+  {
+    "id": "Cake.Sonar",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Sonar"
+  },
+  {
+    "id": "Cake.SonarScanner",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.SonarScanner"
+  },
+  {
+    "id": "Cake.SqlPackage",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.SqlPackage"
+  },
+  {
+    "id": "Cake.SqlServer",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.SqlServer"
+  },
+  {
+    "id": "Cake.SSRS",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.SSRS"
+  },
+  {
+    "id": "Cake.StrongNameSigner",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.StrongNameSigner"
+  },
+  {
+    "id": "Cake.Svn",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Svn",
+    "exclusions": [
+      {
+        "os": [
+          "linux",
+          "osx"
+        ],
+        "reason": "SharpSvn is Windows-only"
+      },
+      {
+        "runner": [
+          "sdk",
+          "frosting"
+        ],
+        "reason": "net46-only package is not loadable on Cake.Sdk/Cake.Frosting"
+      }
+    ]
+  },
+  {
+    "id": "Cake.Talend",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Talend"
+  },
+  {
+    "id": "Cake.TeamCityCoverageReporter",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.TeamCityCoverageReporter"
+  },
+  {
+    "id": "Cake.Terraform",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Terraform"
+  },
+  {
+    "id": "Cake.Tfx",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Tfx"
+  },
+  {
+    "id": "Cake.Transifex",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Transifex"
+  },
+  {
+    "id": "Cake.TravisCI",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.TravisCI"
+  },
+  {
+    "id": "Cake.Twitter",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Twitter"
+  },
+  {
+    "id": "Cake.Unity",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Unity"
+  },
+  {
+    "id": "Cake.UrlLoadDirective.Module",
+    "kind": "module",
+    "repository": "cake-contrib/Cake.UrlLoadDirective.Module"
+  },
+  {
+    "id": "Cake.Vagrant",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Vagrant"
+  },
+  {
+    "id": "Cake.Vault",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Vault"
+  },
+  {
+    "id": "Cake.VsCode",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.VsCode"
+  },
+  {
+    "id": "Cake.VsixSignTool",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.VsixSignTool"
+  },
+  {
+    "id": "Cake.VsMetrics",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.VsMetrics"
+  },
+  {
+    "id": "Cake.VulnerabilityScanner",
+    "kind": "addin",
+    "repository": "cake-contrib/cake-dotnet-vulnerability-scanner"
+  },
+  {
+    "id": "Cake.Warp",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Warp"
+  },
+  {
+    "id": "Cake.Webpack",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Webpack"
+  },
+  {
+    "id": "Cake.Wget",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Wget"
+  },
+  {
+    "id": "Cake.WindowsAppStore",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.WindowsAppStore"
+  },
+  {
+    "id": "Cake.WinSCP",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.WinSCP"
+  },
+  {
+    "id": "Cake.Xamarin",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Xamarin"
+  },
+  {
+    "id": "Cake.XCode",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.XCode"
+  },
+  {
+    "id": "Cake.Yaml",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Yaml"
+  },
+  {
+    "id": "Cake.Yarn",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Yarn"
+  },
+  {
+    "id": "Cake.Yeoman",
+    "kind": "addin",
+    "repository": "cake-contrib/Cake.Yeoman"
+  }
+]
