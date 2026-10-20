@@ -1,0 +1,8570 @@
+[
+  {
+    "id": "Cake.7zip",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.7zip",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.7zip",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.7zip",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.7zip",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.7zip",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ActiveDirectory",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ActiveDirectory",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ActiveDirectory",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ActiveDirectory",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ActiveDirectory",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.ActiveDirectory",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AliaSql",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AliaSql",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AliaSql",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AliaSql",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AliaSql",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AliaSql",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.Adb",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.Adb",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.Adb",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.Adb",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.Adb",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.Adb",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.AvdManager",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.AvdManager",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.AvdManager",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.AvdManager",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.AvdManager",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.AvdManager",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.SdkManager",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.SdkManager",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.SdkManager",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.SdkManager",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.SdkManager",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Android.SdkManager",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AndroidAppManifest",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AndroidAppManifest",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AndroidAppManifest",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AndroidAppManifest",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AndroidAppManifest",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AndroidAppManifest",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Apigee",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Apigee",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Apigee",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Apigee",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Apigee",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Apigee",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppCenter",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppCenter",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppCenter",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppCenter",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppCenter",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppCenter",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppVeyor",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppVeyor",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppVeyor",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppVeyor",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppVeyor",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppVeyor",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppleSimulator",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppleSimulator",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppleSimulator",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppleSimulator",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppleSimulator",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AppleSimulator",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ArgumentBinder",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ArgumentBinder",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ArgumentBinder",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ArgumentBinder",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ArgumentBinder",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ArgumentBinder",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ArgumentHelpers",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ArgumentHelpers",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ArgumentHelpers",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ArgumentHelpers",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ArgumentHelpers",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ArgumentHelpers",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AsciiDoctorJ",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AsciiDoctorJ",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AsciiDoctorJ",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AsciiDoctorJ",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AsciiDoctorJ",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AsciiDoctorJ",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AssemblyInfoReflector",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AssemblyInfoReflector",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AssemblyInfoReflector",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AssemblyInfoReflector",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AssemblyInfoReflector",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.AssemblyInfoReflector",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Aws.ElasticBeanstalk",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Aws.ElasticBeanstalk",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Aws.ElasticBeanstalk",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Aws.ElasticBeanstalk",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Aws.ElasticBeanstalk",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Aws.ElasticBeanstalk",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AzureDevOps",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AzureDevOps",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AzureDevOps",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AzureDevOps",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AzureDevOps",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.AzureDevOps",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Azure",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Azure",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Azure",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Azure",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Azure",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Azure",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.BitDiffer",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.BitDiffer",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.BitDiffer",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.BitDiffer",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.BitDiffer",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.BitDiffer",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Board.Asana",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.Board.Asana",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Board.Asana",
+    "check": "resolve",
+    "framework": null,
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Board.AzureBoards",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Board.AzureBoards",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Board.AzureBoards",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Board.AzureBoards",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Board.AzureBoards",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.Board.AzureBoards",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Bower",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Bower",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Bower",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Bower",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Bower",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Bower",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.BrowserStack",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.BrowserStack",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.BrowserStack",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.BrowserStack",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.BrowserStack",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.BrowserStack",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.BuildSystems.Module",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.BuildSystems.Module",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.BuildSystems.Module",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.BuildSystems.Module",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.BuildSystems.Module",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.BuildSystems.Module",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Bumpy",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Bumpy",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Bumpy",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Bumpy",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Bumpy",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Bumpy",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CMake",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CMake",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CMake",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CMake",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CMake",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CMake",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Chocolatey.Module",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Chocolatey.Module",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "Chocolatey is Windows-only"
+  },
+  {
+    "id": "Cake.Chocolatey.Module",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "Chocolatey is Windows-only"
+  },
+  {
+    "id": "Cake.Chocolatey.Module",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "Chocolatey is Windows-only"
+  },
+  {
+    "id": "Cake.Chocolatey.Module",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "Chocolatey is Windows-only"
+  },
+  {
+    "id": "Cake.Chocolatey.Module",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "Chocolatey is Windows-only"
+  },
+  {
+    "id": "Cake.Chutzpah",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Chutzpah",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Chutzpah",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Chutzpah",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Chutzpah",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Chutzpah",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CloudFormation",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CloudFormation",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CloudFormation",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CloudFormation",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CloudFormation",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CloudFormation",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CodeQL.Cli",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CodeQL.Cli",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CodeQL.Cli",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CodeQL.Cli",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CodeQL.Cli",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CodeQL.Cli",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Codecov",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Codecov",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Codecov",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Codecov",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Codecov",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Codecov",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CoverageComparer",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CoverageComparer",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CoverageComparer",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CoverageComparer",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CoverageComparer",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CoverageComparer",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Coveralls",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Coveralls",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Coveralls",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Coveralls",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Coveralls",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Coveralls",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CsvHelper",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CsvHelper",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CsvHelper",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CsvHelper",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.CsvHelper",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.CsvHelper",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Curl",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Curl",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Curl",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Curl",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Curl",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Curl",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DNF.Module",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DNF.Module",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DNF.Module",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DNF.Module",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DNF.Module",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DNF.Module",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Dart",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Dart",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Dart",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Dart",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Dart",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Dart",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Debootstrap",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Debootstrap",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Debootstrap",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Debootstrap",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Debootstrap",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.Debootstrap",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Discord",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Discord",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Discord",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Discord",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Discord",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Discord",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DoInDirectory",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DoInDirectory",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DoInDirectory",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DoInDirectory",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DoInDirectory",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DoInDirectory",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DocFx",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DocFx",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DocFx",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DocFx",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DocFx",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DocFx",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetCoreEf",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetCoreEf",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "References removed Cake 1.x Cake.Common.Tools.DotNetCore types"
+  },
+  {
+    "id": "Cake.DotNetCoreEf",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetCoreEf",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetCoreEf",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetCoreEf",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetLocalTools.Module",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetLocalTools.Module",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetLocalTools.Module",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetLocalTools.Module",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetLocalTools.Module",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.DotNetLocalTools.Module",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetTool.Module",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetTool.Module",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "Shipped in-box with Cake 7; NuGet 6.3.0 downgrades Cake.DotNetTool.Module"
+  },
+  {
+    "id": "Cake.DotNetTool.Module",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "Shipped in-box with Cake 7; NuGet 6.3.0 downgrades Cake.DotNetTool.Module"
+  },
+  {
+    "id": "Cake.DotNetTool.Module",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "Shipped in-box with Cake 7; NuGet 6.3.0 downgrades Cake.DotNetTool.Module"
+  },
+  {
+    "id": "Cake.DotNetTool.Module",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetTool.Module",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetVersionDetector",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetVersionDetector",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetVersionDetector",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetVersionDetector",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetVersionDetector",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.DotNetVersionDetector",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ESLint",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ESLint",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ESLint",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ESLint",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ESLint",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ESLint",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Eazfuscator.Net",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Eazfuscator.Net",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Eazfuscator.Net",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Eazfuscator.Net",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Eazfuscator.Net",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Eazfuscator.Net",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Email",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Email",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Email",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Email",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Email",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Email",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Ember",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Ember",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Ember",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Ember",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Ember",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Ember",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Endpoint",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Endpoint",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Endpoint",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Endpoint",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Endpoint",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Endpoint",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.EntityFramework6",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.EntityFramework6",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.EntityFramework6",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.EntityFramework6",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.EntityFramework6",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.EntityFramework6",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.EntityFrameworkCore",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.EntityFrameworkCore",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.EntityFrameworkCore",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.EntityFrameworkCore",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.EntityFrameworkCore",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.EntityFrameworkCore",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ExcelDnaPack",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ExcelDnaPack",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ExcelDnaPack",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ExcelDnaPack",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ExcelDnaPack",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ExcelDnaPack",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ExtendedNuGet",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ExtendedNuGet",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ExtendedNuGet",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ExtendedNuGet",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ExtendedNuGet",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ExtendedNuGet",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Fastlane",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Fastlane",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Fastlane",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Fastlane",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Fastlane",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Fastlane",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Figlet",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Figlet",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Figlet",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Figlet",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Figlet",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Figlet",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FileHelpers",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FileHelpers",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FileHelpers",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FileHelpers",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FileHelpers",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FileHelpers",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FluentMigrator",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FluentMigrator",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FluentMigrator",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FluentMigrator",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FluentMigrator",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.FluentMigrator",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Flutter",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Flutter",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Flutter",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Flutter",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Flutter",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Flutter",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Git",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Git",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Git",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Git",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Git",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Git",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer.AppVeyor",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer.AppVeyor",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer.AppVeyor",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer.AppVeyor",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer.AppVeyor",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer.AppVeyor",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer.GitHubActions",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer.GitHubActions",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer.GitHubActions",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer.GitHubActions",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer.GitHubActions",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer.GitHubActions",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.BuildServer",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.DocFx",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.DocFx",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.DocFx",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.DocFx",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.DocFx",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.DocFx",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.EsLint",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.EsLint",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.EsLint",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.EsLint",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.EsLint",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.EsLint",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.GitRepository",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.GitRepository",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.GitRepository",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.GitRepository",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.GitRepository",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.GitRepository",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.InspectCode",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.InspectCode",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.InspectCode",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.InspectCode",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.InspectCode",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.InspectCode",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Markdownlint",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Markdownlint",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Markdownlint",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Markdownlint",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.Markdownlint",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Markdownlint",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.MsBuild",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.MsBuild",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.MsBuild",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.MsBuild",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.MsBuild",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.MsBuild",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.AppVeyor",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.AppVeyor",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.AppVeyor",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.AppVeyor",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.AppVeyor",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.AppVeyor",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.AzureDevOps",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.AzureDevOps",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.AzureDevOps",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.AzureDevOps",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.AzureDevOps",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.AzureDevOps",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.GitHubActions",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.GitHubActions",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.GitHubActions",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.GitHubActions",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.GitHubActions",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests.GitHubActions",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.PullRequests",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Console",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Console",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Console",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Console",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Console",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Console",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Generic",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Generic",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Generic",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Generic",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Generic",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Generic",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Sarif",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Sarif",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Sarif",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Sarif",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Sarif",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting.Sarif",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Reporting",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Sarif",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Sarif",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Sarif",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Sarif",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.Sarif",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Sarif",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Tap",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Tap",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Tap",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Tap",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.Tap",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Tap",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Terraform",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Terraform",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Terraform",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Terraform",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Frosting.Issues.Terraform",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Frosting.Issues.Terraform",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FtpFolderUpload",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FtpFolderUpload",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FtpFolderUpload",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FtpFolderUpload",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FtpFolderUpload",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FtpFolderUpload",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gem",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gem",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gem",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gem",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gem",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gem",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Genymotion",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Genymotion",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Genymotion",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Genymotion",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Genymotion",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.Genymotion",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.GitHub",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.GitHub",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.GitHub",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.GitHub",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.GitHub",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.GitHub",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gitter",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gitter",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gitter",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gitter",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gitter",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.Gitter",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Git",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Git",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Git",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Git",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Git",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Git",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gradle",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gradle",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gradle",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gradle",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gradle",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gradle",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Graphite",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Graphite",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Graphite",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Graphite",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Graphite",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Graphite",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Graph",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Graph",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Graph",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Graph",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Graph",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Graph",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Grunt",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Grunt",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Grunt",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Grunt",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Grunt",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Grunt",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gulp",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gulp",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gulp",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gulp",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gulp",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Gulp",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.HgVersion",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.HgVersion",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.HgVersion",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.HgVersion",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.HgVersion",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.HgVersion",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Hg",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Hg",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Hg",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Hg",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Hg",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Hg",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.HipChat",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.HipChat",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.HipChat",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.HipChat",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.HipChat",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.HipChat",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.HockeyApp",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.HockeyApp",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.HockeyApp",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.HockeyApp",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.HockeyApp",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.HockeyApp",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Homebrew",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Homebrew",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Homebrew",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Homebrew",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Homebrew",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Homebrew",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Hosts",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Hosts",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Hosts",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Hosts",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Hosts",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Hosts",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Http",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Http",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Http",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Http",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Http",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Http",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ISO",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ISO",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ISO",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ISO",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ISO",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ISO",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Incubator",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Incubator",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Incubator",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Incubator",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Incubator",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Incubator",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.BuildServer.AppVeyor",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.BuildServer.AppVeyor",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.BuildServer.AppVeyor",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.BuildServer.AppVeyor",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.BuildServer.AppVeyor",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.BuildServer.AppVeyor",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.BuildServer.GitHubActions",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.BuildServer.GitHubActions",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.BuildServer.GitHubActions",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.BuildServer.GitHubActions",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.BuildServer.GitHubActions",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.BuildServer.GitHubActions",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.BuildServer",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.BuildServer",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.BuildServer",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.BuildServer",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.BuildServer",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.BuildServer",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.DocFx",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.DocFx",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.DocFx",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.DocFx",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.DocFx",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.DocFx",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.DupFinder",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.DupFinder",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.DupFinder",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.DupFinder",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.DupFinder",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.DupFinder",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.EsLint",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.EsLint",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.EsLint",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.EsLint",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.EsLint",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.EsLint",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.GitRepository",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.GitRepository",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.GitRepository",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.GitRepository",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.GitRepository",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.GitRepository",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.InspectCode",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.InspectCode",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.InspectCode",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.InspectCode",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.InspectCode",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.InspectCode",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Markdownlint",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Markdownlint",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.Markdownlint",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.Markdownlint",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Markdownlint",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Markdownlint",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.MsBuild",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.MsBuild",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.MsBuild",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.MsBuild",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.MsBuild",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.MsBuild",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.PullRequests.AppVeyor",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.PullRequests.AppVeyor",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.PullRequests.AppVeyor",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.PullRequests.AppVeyor",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.PullRequests.AppVeyor",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.PullRequests.AppVeyor",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.PullRequests.AzureDevOps",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.PullRequests.AzureDevOps",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.PullRequests.AzureDevOps",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.PullRequests.AzureDevOps",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.PullRequests.AzureDevOps",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.PullRequests.AzureDevOps",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.PullRequests.GitHubActions",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.PullRequests.GitHubActions",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.PullRequests.GitHubActions",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.PullRequests.GitHubActions",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.PullRequests.GitHubActions",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.PullRequests.GitHubActions",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.PullRequests",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.PullRequests",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.PullRequests",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.PullRequests",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.PullRequests",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.PullRequests",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Reporting.Console",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Reporting.Console",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.Reporting.Console",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.Reporting.Console",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Reporting.Console",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Reporting.Console",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Reporting.Generic",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Reporting.Generic",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.Reporting.Generic",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.Reporting.Generic",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Reporting.Generic",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Reporting.Generic",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Reporting.Sarif",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Reporting.Sarif",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.Reporting.Sarif",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.Reporting.Sarif",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Reporting.Sarif",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Reporting.Sarif",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Reporting",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Reporting",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.Reporting",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.Reporting",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Reporting",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Reporting",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Sarif",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Sarif",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.Sarif",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.Sarif",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Sarif",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Sarif",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Tap",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Tap",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.Tap",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.Tap",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Tap",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Tap",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Terraform",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Terraform",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.Terraform",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues.Terraform",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Terraform",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues.Terraform",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "runner not included"
+  },
+  {
+    "id": "Cake.Issues",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Issues",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.JMeter",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.JMeter",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.JMeter",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.JMeter",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.JMeter",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.JMeter",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Jekyll",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Jekyll",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Jekyll",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Jekyll",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Jekyll",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Jekyll",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Jira",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Jira",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Jira",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Jira",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Jira",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Jira",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Json",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Json",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Json",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Json",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Json",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Json",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Karma",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Karma",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Karma",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Karma",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Karma",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.Karma",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kubectl",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kubectl",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kubectl",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kubectl",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kubectl",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kubectl",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kudu.Client",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kudu.Client",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kudu.Client",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kudu.Client",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kudu.Client",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kudu.Client",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kudu",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kudu",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kudu",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kudu",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kudu",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Kudu",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.LibMan",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.LibMan",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.LibMan",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.LibMan",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.LibMan",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.LibMan",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.LicenseHeaderUpdater",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.LicenseHeaderUpdater",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.LicenseHeaderUpdater",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.LicenseHeaderUpdater",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.LicenseHeaderUpdater",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.LicenseHeaderUpdater",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.LongPath.Module",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.LongPath.Module",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "Uses Windows kernel32 long-path APIs"
+  },
+  {
+    "id": "Cake.LongPath.Module",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "Uses Windows kernel32 long-path APIs"
+  },
+  {
+    "id": "Cake.LongPath.Module",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "Uses Windows kernel32 long-path APIs"
+  },
+  {
+    "id": "Cake.LongPath.Module",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "Uses Windows kernel32 long-path APIs"
+  },
+  {
+    "id": "Cake.LongPath.Module",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "Uses Windows kernel32 long-path APIs"
+  },
+  {
+    "id": "Cake.MSBuildTask",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MSBuildTask",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MSBuildTask",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MSBuildTask",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MSBuildTask",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.MSBuildTask",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Mage",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Mage",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Mage",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Mage",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Mage",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Mage",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Markdown-Pdf",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Markdown-Pdf",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Markdown-Pdf",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Markdown-Pdf",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Markdown-Pdf",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.Markdown-Pdf",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Markdownlint",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Markdownlint",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Markdownlint",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Markdownlint",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Markdownlint",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Markdownlint",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Mastodon",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Mastodon",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Mastodon",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Mastodon",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Mastodon",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Mastodon",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MicrosoftTeams",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MicrosoftTeams",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MicrosoftTeams",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MicrosoftTeams",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MicrosoftTeams",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MicrosoftTeams",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MinVer",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MinVer",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MinVer",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MinVer",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MinVer",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MinVer",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MsDeploy",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MsDeploy",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MsDeploy",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MsDeploy",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MsDeploy",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.MsDeploy",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.NDepend",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.NDepend",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.NDepend",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.NDepend",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.NDepend",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.NDepend",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.NSwag",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.NSwag",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.NSwag",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.NSwag",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.NSwag",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.NSwag",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Newman",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Newman",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Newman",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Newman",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Newman",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Newman",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Npm.Module",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Npm.Module",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Npm.Module",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Npm.Module",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Npm.Module",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.Npm.Module",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Npm",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Npm",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Npm",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Npm",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Npm",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Npm",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Openshift",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Openshift",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Openshift",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Openshift",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Openshift",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Openshift",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Orchard",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Orchard",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Orchard",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Orchard",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Orchard",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.Orchard",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Paket.Module",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Paket.Module",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "net45-only package is not loadable on Cake.Sdk/Cake.Frosting"
+  },
+  {
+    "id": "Cake.Paket.Module",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "net45-only package is not loadable on Cake.Sdk/Cake.Frosting"
+  },
+  {
+    "id": "Cake.Paket.Module",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Paket.Module",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "no Cake.Core/Cake.Common project"
+  },
+  {
+    "id": "Cake.Paket.Module",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "no Cake.Core/Cake.Common project"
+  },
+  {
+    "id": "Cake.Paket",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Paket",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "net45-only package is not loadable on Cake.Sdk/Cake.Frosting"
+  },
+  {
+    "id": "Cake.Paket",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "net45-only package is not loadable on Cake.Sdk/Cake.Frosting"
+  },
+  {
+    "id": "Cake.Paket",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Paket",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "no Cake.Core/Cake.Common project"
+  },
+  {
+    "id": "Cake.Paket",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "no Cake.Core/Cake.Common project"
+  },
+  {
+    "id": "Cake.PathTildeHelper",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.PathTildeHelper",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.PathTildeHelper",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.PathTildeHelper",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.PathTildeHelper",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.PathTildeHelper",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.PinNuGetDependency",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.PinNuGetDependency",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.PinNuGetDependency",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.PinNuGetDependency",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.PinNuGetDependency",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.PinNuGetDependency",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Plist",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Plist",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Plist",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Plist",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Plist",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Plist",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Pnpm",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Pnpm",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Pnpm",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Pnpm",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Pnpm",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Pnpm",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ProGet",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ProGet",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ProGet",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ProGet",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ProGet",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ProGet",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Prompt",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Prompt",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Prompt",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Prompt",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Prompt",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Prompt",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ProtobufTools",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ProtobufTools",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ProtobufTools",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ProtobufTools",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ProtobufTools",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ProtobufTools",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Pulumi",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Pulumi",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Pulumi",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Pulumi",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Pulumi",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Pulumi",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.RSync",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.RSync",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.RSync",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.RSync",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.RSync",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.RSync",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Raygun",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Raygun",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Raygun",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Raygun",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Raygun",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.Raygun",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ReSharperReports",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ReSharperReports",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ReSharperReports",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ReSharperReports",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ReSharperReports",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ReSharperReports",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.RepoVersion",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.RepoVersion",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.RepoVersion",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.RepoVersion",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.RepoVersion",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.RepoVersion",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ResourceHacker",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ResourceHacker",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ResourceHacker",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ResourceHacker",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ResourceHacker",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ResourceHacker",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Rest",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Rest",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Rest",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Rest",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Rest",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.Rest",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ResxConverter",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ResxConverter",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ResxConverter",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ResxConverter",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ResxConverter",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.ResxConverter",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SFTP",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SFTP",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SFTP",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SFTP",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SFTP",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SFTP",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SSRS",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SSRS",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SSRS",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SSRS",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SSRS",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.SSRS",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ScheduledTasks",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ScheduledTasks",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ScheduledTasks",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ScheduledTasks",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ScheduledTasks",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.ScheduledTasks",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SemVer",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SemVer",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SemVer",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SemVer",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SemVer",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SemVer",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SendGrid",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SendGrid",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SendGrid",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SendGrid",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SendGrid",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SendGrid",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SharePoint",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SharePoint",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SharePoint",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SharePoint",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SharePoint",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SharePoint",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Slack",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Slack",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Slack",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Slack",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Slack",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Slack",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SmartAssembly",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SmartAssembly",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SmartAssembly",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SmartAssembly",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SmartAssembly",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SmartAssembly",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SonarScanner",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SonarScanner",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SonarScanner",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SonarScanner",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SonarScanner",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SonarScanner",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Sonar",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Sonar",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Sonar",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Sonar",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Sonar",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Sonar",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SqlPackage",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SqlPackage",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SqlPackage",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SqlPackage",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SqlPackage",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SqlPackage",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SqlServer",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SqlServer",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SqlServer",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SqlServer",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SqlServer",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.SqlServer",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.StrongNameSigner",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.StrongNameSigner",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.StrongNameSigner",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.StrongNameSigner",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.StrongNameSigner",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.StrongNameSigner",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Svn",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Svn",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "SharpSvn is Windows-only"
+  },
+  {
+    "id": "Cake.Svn",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "SharpSvn is Windows-only"
+  },
+  {
+    "id": "Cake.Svn",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "SharpSvn is Windows-only"
+  },
+  {
+    "id": "Cake.Svn",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "SharpSvn is Windows-only"
+  },
+  {
+    "id": "Cake.Svn",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "SharpSvn is Windows-only"
+  },
+  {
+    "id": "Cake.Talend",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Talend",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Talend",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Talend",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Talend",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.Talend",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.TeamCityCoverageReporter",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.TeamCityCoverageReporter",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.TeamCityCoverageReporter",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.TeamCityCoverageReporter",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.TeamCityCoverageReporter",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.TeamCityCoverageReporter",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Terraform",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Terraform",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Terraform",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Terraform",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Terraform",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Terraform",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Tfx",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Tfx",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Tfx",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Tfx",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Tfx",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Tfx",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Transifex",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Transifex",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Transifex",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Transifex",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Transifex",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Transifex",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.TravisCI",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.TravisCI",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.TravisCI",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.TravisCI",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.TravisCI",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.TravisCI",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Twitter",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Twitter",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Twitter",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Twitter",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Twitter",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Twitter",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Unity",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Unity",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Unity",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Unity",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Unity",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Unity",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.UrlLoadDirective.Module",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.UrlLoadDirective.Module",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.UrlLoadDirective.Module",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.UrlLoadDirective.Module",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.UrlLoadDirective.Module",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.UrlLoadDirective.Module",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Vagrant",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Vagrant",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Vagrant",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Vagrant",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Vagrant",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Vagrant",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Vault",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Vault",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Vault",
+    "check": "resolve",
+    "framework": null,
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VsCode",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VsCode",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VsCode",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VsCode",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VsCode",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VsCode",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VsMetrics",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VsMetrics",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VsMetrics",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VsMetrics",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VsMetrics",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.VsMetrics",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VsixSignTool",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VsixSignTool",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VsixSignTool",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VsixSignTool",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VsixSignTool",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.VsixSignTool",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VulnerabilityScanner",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VulnerabilityScanner",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VulnerabilityScanner",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VulnerabilityScanner",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VulnerabilityScanner",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.VulnerabilityScanner",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Warp",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Warp",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Warp",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Warp",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Warp",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.Warp",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Webpack",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Webpack",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Webpack",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Webpack",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Webpack",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "skipped",
+    "reason": "rebuild failed"
+  },
+  {
+    "id": "Cake.Webpack",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Wget",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Wget",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Wget",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Wget",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Wget",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Wget",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.WinSCP",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.WinSCP",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.WinSCP",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.WinSCP",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.WinSCP",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.WinSCP",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.WindowsAppStore",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.WindowsAppStore",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.WindowsAppStore",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.WindowsAppStore",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.WindowsAppStore",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.WindowsAppStore",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.XCode",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.XCode",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.XCode",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.XCode",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.XCode",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.XCode",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Xamarin",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Xamarin",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Xamarin",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Xamarin",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Xamarin",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Xamarin",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yaml",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yaml",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yaml",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yaml",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yaml",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yaml",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yarn",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yarn",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yarn",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yarn",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yarn",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yarn",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yeoman",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yeoman",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yeoman",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yeoman",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yeoman",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.Yeoman",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.grate",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.grate",
+    "check": "load-frosting",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.grate",
+    "check": "load-sdk",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.grate",
+    "check": "load-tool",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.grate",
+    "check": "rebuild-warning",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.grate",
+    "check": "rebuild",
+    "framework": "net11.0",
+    "status": "passed",
+    "reason": null
+  }
+]
