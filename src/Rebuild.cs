@@ -108,6 +108,8 @@ public static partial class Program
                     .WithProperty("CustomAfterMicrosoftCommonTargets", data.TargetsPath.FullPath)
                     .WithProperty("CakePrereleaseCoreVersion", data.Versions.Core)
                     .WithProperty("CakePrereleaseCommonVersion", data.Versions.Common)
+                    .WithProperty("CakePrereleaseFrostingVersion", data.Versions.Frosting)
+                    .WithProperty("CakePrereleaseSdkVersion", data.Versions.Sdk)
                     .WithProperty("EnableSourceLink", "false")
                     .WithProperty("PublishRepositoryUrl", "false")
                     .WithProperty("EmbedUntrackedSources", "false")

@@ -71,21 +71,8 @@ public sealed class PackageInventory
 
 public sealed record LoadWork(CatalogPackage Package, string Framework, string Version, PackageInventory? Inventory);
 
-public sealed class CakeVersions
-{
-    public string Tool { get; set; } = "";
-    public string Sdk { get; set; } = "";
-    public string Frosting { get; set; } = "";
-    public string Core { get; set; } = "";
-    public string Common { get; set; } = "";
-}
-
 public static class Harness
 {
-    public const string CakeFeed = "https://pkgs.dev.azure.com/cake-build/Cake/_packaging/cake/nuget/v3/index.json";
-    public const string CakeFlat = "https://pkgs.dev.azure.com/cake-build/af63183c-ac1f-4dbb-93bc-4fa862ea5809/_packaging/063b39ab-3813-4d0c-aad5-71f9a60e38df/nuget/v3/flat2";
-    public const string NuGetFlat = "https://api.nuget.org/v3-flatcontainer";
-
     public static readonly string[] AllRunners = ["tool", "sdk", "frosting"];
 
     public static readonly JsonSerializerOptions JsonOptions = new()
@@ -266,26 +253,14 @@ public static class Harness
         return values.Any(v => string.Equals(v, actual, StringComparison.OrdinalIgnoreCase));
     }
 
-    public static async System.Threading.Tasks.Task<CakeVersions> ResolveCakeVersionsAsync()
-    {
-        return new CakeVersions
-        {
-            Tool = await HighestAsync($"{CakeFlat}/cake.tool/index.json", prerelease: true),
-            Sdk = await HighestAsync($"{CakeFlat}/cake.sdk/index.json", prerelease: true),
-            Frosting = await HighestAsync($"{CakeFlat}/cake.frosting/index.json", prerelease: true),
-            Core = await HighestAsync($"{CakeFlat}/cake.core/index.json", prerelease: true),
-            Common = await HighestAsync($"{CakeFlat}/cake.common/index.json", prerelease: true)
-        };
-    }
-
     public static System.Threading.Tasks.Task<string> LatestStableAsync(string packageId)
-        => HighestAsync($"{NuGetFlat}/{packageId.ToLowerInvariant()}/index.json", prerelease: false);
+        => Versions.HighestAsync($"{Versions.NuGetFlat}/{packageId.ToLowerInvariant()}/index.json", prerelease: false);
 
     public static async System.Threading.Tasks.Task<PackageInventory> InventoryAsync(string packageId, string version)
     {
         var id = packageId.ToLowerInvariant();
         var ver = version.ToLowerInvariant();
-        var url = $"{NuGetFlat}/{id}/{ver}/{id}.{ver}.nupkg";
+        var url = $"{Versions.NuGetFlat}/{id}/{ver}/{id}.{ver}.nupkg";
         using var client = new HttpClient();
         client.DefaultRequestHeaders.UserAgent.ParseAdd("cake-contrib-integrationtest");
         var bytes = await client.GetByteArrayAsync(url);
@@ -420,40 +395,6 @@ public static class Harness
         }
 
         return tfm;
-    }
-
-    public static async System.Threading.Tasks.Task<string> HighestAsync(string url, bool prerelease)
-    {
-        using var client = new HttpClient();
-        client.DefaultRequestHeaders.UserAgent.ParseAdd("cake-contrib-integrationtest");
-        var json = await client.GetStringAsync(url);
-        using var document = JsonDocument.Parse(json);
-        var versions = document.RootElement.GetProperty("versions")
-            .EnumerateArray()
-            .Select(v => v.GetString())
-            .Where(v => !string.IsNullOrWhiteSpace(v))
-            .Select(v => v!)
-            .Where(v => prerelease || v.IndexOf('-') < 0)
-            .ToList();
-        if (versions.Count == 0)
-        {
-            throw new InvalidOperationException($"No versions at {url}");
-        }
-
-        return versions.OrderBy(ParseVersion).Last();
-    }
-
-    public static (Version Number, string Suffix) ParseVersion(string version)
-    {
-        var dash = version.IndexOf('-');
-        var numeric = dash < 0 ? version : version[..dash];
-        var suffix = dash < 0 ? "" : version[(dash + 1)..];
-        var parts = numeric.Split('.');
-        var major = parts.Length > 0 && int.TryParse(parts[0], out var a) ? a : 0;
-        var minor = parts.Length > 1 && int.TryParse(parts[1], out var b) ? b : 0;
-        var build = parts.Length > 2 && int.TryParse(parts[2], out var c) ? c : 0;
-        var revision = parts.Length > 3 && int.TryParse(parts[3], out var d) ? d : 0;
-        return (new Version(major, minor, build, revision), suffix);
     }
 
     public static FilePath SmokeFilePath(DirectoryPath root, CatalogPackage package)

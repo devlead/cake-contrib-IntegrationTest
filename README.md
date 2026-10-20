@@ -36,6 +36,21 @@ flowchart TD
 dotnet run cake.cs -- --target=Test --framework=net10.0 --framework=net11.0 --package=Cake.FileHelpers --package=Cake.Git --package=Cake.Frosting.Git
 ```
 
+## Cake versions
+
+Every check uses the latest Cake 7 pre-release packages (Cake.Tool, Cake.Sdk, Cake.Frosting, Cake.Core, Cake.Common) from the Cake feed.
+
+- [`prepare.cs`](prepare.cs) resolves them, patches the `#:sdk Cake.Sdk@…` pin in `cake.cs` so the orchestrator runs on the latest Cake.Sdk too, and on GitHub Actions publishes them as step outputs and `INTEGRATION_CAKE_{NAME}_VERSION` environment variables.
+- CI resolves once per run in the `prepare` job; each matrix leg re-runs `prepare.cs` with those versions as arguments so all legs test the same build.
+- `cake.cs` uses `INTEGRATION_CAKE_*_VERSION` when set, otherwise it resolves the latest itself.
+- Rebuilds patch every package `nuget.config` maps to the Cake feed (`Cake.Core`, `Cake.Common`, `Cake.Cli`, `Cake.NuGet`, `Cake.DotNetTool.Module`, `Cake.Frosting`, `Cake.Tool`, `Cake.Sdk`, `Cake.Generator`) via [`src/CakePrerelease.targets`](src/CakePrerelease.targets), with or without central package management, and add direct `Cake.Core`/`Cake.Common` references when they would otherwise only come in transitively.
+
+Bump the local `cake.cs` pin to the latest Cake.Sdk:
+
+```powershell
+dotnet run prepare.cs
+```
+
 ## Snapshots
 
 The run does not fail just because a check failed. Many addins are not yet compatible with Cake 7 pre-release, so results are approval-tested instead (similar to [Verify](https://github.com/VerifyTests/Verify)):

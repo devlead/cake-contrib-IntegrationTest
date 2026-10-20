@@ -91,8 +91,20 @@ public static partial class Program
         Harness.CopyNuGetConfig(Context, data.Root, work);
         var customSmoke = Harness.HasCustomSmokeFile(Context, data.Root, package);
         var body = Harness.ResolveSmokeBody(Context, data.Root, package);
-        var code = Harness.SdkScript(package, version, data.Versions.Sdk, data.Framework, body, customSmoke);
-        DotNetRunCode(code, new DotNetRunSettings { WorkingDirectory = work });
+        var script = work.CombineWithFilePath("smoke.cs");
+        Context.FileSystem.GetFile(script).WriteAllText(Harness.SdkScript(package, version, data.Versions.Sdk, data.Framework, body, customSmoke));
+        // Run from a file next to nuget.config; stdin code resolves #:sdk from a temp dir that ignores it.
+        Command(
+            new CommandSettings
+            {
+                ToolName = "dotnet",
+                ToolExecutableNames = ["dotnet", "dotnet.exe"],
+                WorkingDirectory = work
+            },
+            new ProcessArgumentBuilder()
+                .Append("run")
+                .Append("--file")
+                .AppendQuoted(script.FullPath));
     }
 
     public static void RunFrosting(BuildData data, CatalogPackage package, string version)

@@ -15,7 +15,7 @@ public static partial class Program
             .Split(['\r', '\n'], StringSplitOptions.RemoveEmptyEntries)
             .Select(line => line.Split(' ')[0])
             .Where(version => version.StartsWith(major, StringComparison.Ordinal))
-            .OrderBy(Harness.ParseVersion)
+            .Order(Versions.Comparer)
             .LastOrDefault();
         return match ?? major + "0.100";
     }

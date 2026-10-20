@@ -64,7 +64,7 @@ Task("Discover")
 Task("Prepare")
     .Does<BuildData>(async data =>
     {
-        data.Versions = await Harness.ResolveCakeVersionsAsync();
+        data.Versions = await Versions.ResolveCakeVersionsAsync(name => EnvironmentVariable(Versions.EnvironmentVariableName(name)));
         Information(
             "Cake.Tool={0} Cake.Sdk={1} Cake.Frosting={2} Cake.Core={3} Cake.Common={4}",
             data.Versions.Tool,
@@ -72,7 +72,7 @@ Task("Prepare")
             data.Versions.Frosting,
             data.Versions.Core,
             data.Versions.Common);
-        InstallTool($"dotnet:{Harness.CakeFeed}?package=Cake.Tool&version={data.Versions.Tool}");
+        InstallTool($"dotnet:{Versions.CakeFeed}?package=Cake.Tool&version={data.Versions.Tool}");
     });
 
 Task("Test-Inventory")

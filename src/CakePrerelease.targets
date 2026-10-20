@@ -19,12 +19,49 @@
     <CakeContribGuidelinesOmitTargetFramework Include="net461" />
     <CakeContribGuidelinesOmitTargetFramework Include="net472" />
   </ItemGroup>
-  <ItemGroup Condition="'$(CakePrereleaseCoreVersion)' != ''">
-    <PackageReference Update="Cake.Core" Version="$(CakePrereleaseCoreVersion)" />
-    <PackageVersion Update="Cake.Core" Version="$(CakePrereleaseCoreVersion)" />
+  <!--
+    Every package nuget.config maps to the Cake feed is patched to the pre-release version.
+    Packages shipped from the same Cake build as Cake.Core share its version; Cake.Generator ships with Cake.Sdk.
+    With central package management only PackageVersion may carry a version (NU1008).
+  -->
+  <ItemGroup>
+    <_CakePrereleaseCoreBuild Include="Cake.Core;Cake.Cli;Cake.NuGet;Cake.DotNetTool.Module;Cake.Tool" />
+    <_CakePrereleaseSdkBuild Include="Cake.Sdk;Cake.Generator" />
   </ItemGroup>
-  <ItemGroup Condition="'$(CakePrereleaseCommonVersion)' != ''">
-    <PackageReference Update="Cake.Common" Version="$(CakePrereleaseCommonVersion)" />
-    <PackageVersion Update="Cake.Common" Version="$(CakePrereleaseCommonVersion)" />
+  <ItemGroup Condition="'$(ManagePackageVersionsCentrally)' != 'true'">
+    <PackageReference Update="@(_CakePrereleaseCoreBuild)" Version="$(CakePrereleaseCoreVersion)" Condition="'$(CakePrereleaseCoreVersion)' != ''" />
+    <PackageReference Update="Cake.Common" Version="$(CakePrereleaseCommonVersion)" Condition="'$(CakePrereleaseCommonVersion)' != ''" />
+    <PackageReference Update="Cake.Frosting" Version="$(CakePrereleaseFrostingVersion)" Condition="'$(CakePrereleaseFrostingVersion)' != ''" />
+    <PackageReference Update="@(_CakePrereleaseSdkBuild)" Version="$(CakePrereleaseSdkVersion)" Condition="'$(CakePrereleaseSdkVersion)' != ''" />
   </ItemGroup>
+  <ItemGroup Condition="'$(ManagePackageVersionsCentrally)' == 'true'">
+    <PackageVersion Update="@(_CakePrereleaseCoreBuild)" Version="$(CakePrereleaseCoreVersion)" Condition="'$(CakePrereleaseCoreVersion)' != ''" />
+    <PackageVersion Update="Cake.Common" Version="$(CakePrereleaseCommonVersion)" Condition="'$(CakePrereleaseCommonVersion)' != ''" />
+    <PackageVersion Update="Cake.Frosting" Version="$(CakePrereleaseFrostingVersion)" Condition="'$(CakePrereleaseFrostingVersion)' != ''" />
+    <PackageVersion Update="@(_CakePrereleaseSdkBuild)" Version="$(CakePrereleaseSdkVersion)" Condition="'$(CakePrereleaseSdkVersion)' != ''" />
+  </ItemGroup>
+  <!--
+    Update only touches direct references. Pin Cake.Core (and Cake.Common when another Cake.* package
+    may bring it in) directly so older transitive versions from other addins cannot win.
+  -->
+  <Target Name="_CakePrereleaseDirectReferences" BeforeTargets="CollectPackageReferences" Condition="'$(CakePrereleaseCoreVersion)' != ''">
+    <ItemGroup>
+      <_CakePrereleaseReference Include="@(PackageReference)" Condition="$([System.String]::Copy('%(Identity)').StartsWith('Cake.'))" />
+      <_CakePrereleaseDependent Include="@(_CakePrereleaseReference)" Exclude="Cake.Core;Cake.Addin.Analyzer" />
+      <_CakePrereleaseCore Include="@(PackageReference)" Condition="'%(Identity)' == 'Cake.Core'" />
+      <_CakePrereleaseCommon Include="@(PackageReference)" Condition="'%(Identity)' == 'Cake.Common'" />
+    </ItemGroup>
+    <PropertyGroup>
+      <_CakePrereleaseAddCore Condition="'@(_CakePrereleaseReference)' != '' and '@(_CakePrereleaseCore)' == ''">true</_CakePrereleaseAddCore>
+      <_CakePrereleaseAddCommon Condition="'$(CakePrereleaseCommonVersion)' != '' and '@(_CakePrereleaseDependent)' != '' and '@(_CakePrereleaseCommon)' == ''">true</_CakePrereleaseAddCommon>
+    </PropertyGroup>
+    <ItemGroup Condition="'$(ManagePackageVersionsCentrally)' == 'true'">
+      <PackageReference Include="Cake.Core" VersionOverride="$(CakePrereleaseCoreVersion)" PrivateAssets="all" Condition="'$(_CakePrereleaseAddCore)' == 'true'" />
+      <PackageReference Include="Cake.Common" VersionOverride="$(CakePrereleaseCommonVersion)" PrivateAssets="all" Condition="'$(_CakePrereleaseAddCommon)' == 'true'" />
+    </ItemGroup>
+    <ItemGroup Condition="'$(ManagePackageVersionsCentrally)' != 'true'">
+      <PackageReference Include="Cake.Core" Version="$(CakePrereleaseCoreVersion)" PrivateAssets="all" Condition="'$(_CakePrereleaseAddCore)' == 'true'" />
+      <PackageReference Include="Cake.Common" Version="$(CakePrereleaseCommonVersion)" PrivateAssets="all" Condition="'$(_CakePrereleaseAddCommon)' == 'true'" />
+    </ItemGroup>
+  </Target>
 </Project>

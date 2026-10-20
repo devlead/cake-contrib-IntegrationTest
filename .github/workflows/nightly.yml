@@ -16,8 +16,33 @@ on:
         type: string
 
 jobs:
+  prepare:
+    name: Resolve Cake versions
+    runs-on: ubuntu-latest
+    outputs:
+      cake_tool: ${{ steps.prepare.outputs.cake_tool }}
+      cake_sdk: ${{ steps.prepare.outputs.cake_sdk }}
+      cake_frosting: ${{ steps.prepare.outputs.cake_frosting }}
+      cake_core: ${{ steps.prepare.outputs.cake_core }}
+      cake_common: ${{ steps.prepare.outputs.cake_common }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Install .NET SDK
+        uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Resolve latest Cake versions
+        id: prepare
+        uses: cake-build/cake-action@v3.0.1
+        with:
+          file-path: prepare.cs
+
   test:
     name: ${{ matrix.os }} ${{ matrix.framework }} ${{ matrix.shard }}
+    needs: prepare
     runs-on: ${{ matrix.os }}
     timeout-minutes: 360
     strategy:
@@ -35,6 +60,17 @@ jobs:
         with:
           dotnet-version: ${{ matrix.framework == 'net10.0' && '10.0.x' || '11.0.x' }}
           dotnet-quality: ${{ matrix.framework == 'net11.0' && 'preview' || '' }}
+
+      - name: Use resolved Cake versions
+        uses: cake-build/cake-action@v3.0.1
+        with:
+          file-path: prepare.cs
+          arguments: |
+            cake-tool: ${{ needs.prepare.outputs.cake_tool }}
+            cake-sdk: ${{ needs.prepare.outputs.cake_sdk }}
+            cake-frosting: ${{ needs.prepare.outputs.cake_frosting }}
+            cake-core: ${{ needs.prepare.outputs.cake_core }}
+            cake-common: ${{ needs.prepare.outputs.cake_common }}
 
       - name: Run integration tests
         uses: cake-build/cake-action@v3.0.1
