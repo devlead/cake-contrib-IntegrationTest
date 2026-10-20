@@ -77,8 +77,10 @@ public static partial class Program
         var customSmoke = Harness.HasCustomSmokeFile(Context, data.Root, package);
         var body = Harness.ResolveSmokeBody(Context, data.Root, package);
         Context.FileSystem.GetFile(script).WriteAllText(Harness.ToolScript(package, version, body, customSmoke));
+        // Use the dotnet tool shim; it targets the framework picked at install time, unlike globbing tools/ for Cake.dll.
         CakeExecuteScript(script, new CakeSettings
         {
+            ToolPath = data.Root.Combine("tools").CombineWithFilePath(IsRunningOnWindows() ? "dotnet-cake.exe" : "dotnet-cake"),
             WorkingDirectory = work,
             Verbosity = Verbosity.Verbose
         });
