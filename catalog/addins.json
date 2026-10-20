@@ -233,21 +233,6 @@
     "repository": "cake-contrib/Cake.DotNetLocalTools.Module"
   },
   {
-    "id": "Cake.DotNetTool.Module",
-    "kind": "module",
-    "repository": "cake-contrib/Cake.DotNetTool.Module",
-    "exclusions": [
-      {
-        "runner": [
-          "tool",
-          "sdk",
-          "frosting"
-        ],
-        "reason": "Shipped in-box with Cake 7; NuGet 6.3.0 downgrades Cake.DotNetTool.Module"
-      }
-    ]
-  },
-  {
     "id": "Cake.DotNetVersionDetector",
     "kind": "addin",
     "repository": "cake-contrib/Cake.DotNetVersionDetector"

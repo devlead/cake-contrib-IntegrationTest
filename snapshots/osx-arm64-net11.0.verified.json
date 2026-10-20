@@ -1785,48 +1785,6 @@
     "reason": null
   },
   {
-    "id": "Cake.DotNetTool.Module",
-    "check": "inventory",
-    "framework": null,
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.DotNetTool.Module",
-    "check": "load-frosting",
-    "framework": "net11.0",
-    "status": "skipped",
-    "reason": "Shipped in-box with Cake 7; NuGet 6.3.0 downgrades Cake.DotNetTool.Module"
-  },
-  {
-    "id": "Cake.DotNetTool.Module",
-    "check": "load-sdk",
-    "framework": "net11.0",
-    "status": "skipped",
-    "reason": "Shipped in-box with Cake 7; NuGet 6.3.0 downgrades Cake.DotNetTool.Module"
-  },
-  {
-    "id": "Cake.DotNetTool.Module",
-    "check": "load-tool",
-    "framework": "net11.0",
-    "status": "skipped",
-    "reason": "Shipped in-box with Cake 7; NuGet 6.3.0 downgrades Cake.DotNetTool.Module"
-  },
-  {
-    "id": "Cake.DotNetTool.Module",
-    "check": "rebuild-warning",
-    "framework": "net11.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.DotNetTool.Module",
-    "check": "rebuild",
-    "framework": "net11.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
     "id": "Cake.DotNetVersionDetector",
     "check": "inventory",
     "framework": null,
