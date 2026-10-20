@@ -22,7 +22,8 @@ Setup<BuildData>(context =>
         Artifacts = artifacts,
         TargetsPath = root.CombineWithFilePath("src/CakePrerelease.targets"),
         Os = Harness.HostOs(context),
-        Architecture = Harness.HostArchitecture()
+        Architecture = Harness.HostArchitecture(),
+        Shard = shard
     };
 
     EnsureDirectoryExists(data.Artifacts);
@@ -46,6 +47,8 @@ Setup<BuildData>(context =>
             .AddRow("Cake.Generator NuGet", Markup.Escape(CakeGeneratorNuGetVersion)));
     return data;
 });
+
+Teardown<BuildData>((context, data) => UploadArtifactsAsync(data).GetAwaiter().GetResult());
 
 Task("Discover")
     .Does<BuildData>(data =>
@@ -134,10 +137,13 @@ Task("Test")
     .Does<BuildData>(data =>
     {
         WriteSummary(data);
-        if (data.Results.Any(r => r.Status == "failed" && r.Check != "rebuild-warning"))
+        if (VerifySnapshots(data) > 0)
         {
-            throw new CakeException("One or more integration checks failed.");
+            throw new CakeException("Integration results differ from snapshot. Review build/snapshots/*.received.json, run --target=Accept, and commit.");
         }
     });
+
+Task("Accept")
+    .Does<BuildData>(data => AcceptSnapshots(data, Argument("run", "")));
 
 RunTarget(target);

@@ -8,7 +8,10 @@ public sealed class BuildData
     public required FilePath TargetsPath { get; init; }
     public required string Os { get; init; }
     public required string Architecture { get; init; }
+    public string Shard { get; init; } = "";
     public DirectoryPath WorkRoot => Artifacts.Combine(Framework);
+    public DirectoryPath SnapshotsDir => Root.Combine("snapshots");
+    public DirectoryPath ReceivedSnapshotsDir => Artifacts.Combine("snapshots");
     public List<CatalogPackage> Packages { get; } = [];
     public List<CheckResult> Results { get; } = [];
     public Dictionary<string, PackageInventory> Inventories { get; } = new(StringComparer.OrdinalIgnoreCase);

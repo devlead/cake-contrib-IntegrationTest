@@ -17,6 +17,7 @@ flowchart TD
   loadFrosting[DotNetRun executes Cake.Frosting project]
   rebuild[dotnet build with version override]
   summary[build/results.json and step summary]
+  snapshot[compare with snapshots/*.verified.json]
   workflow --> action --> orch
   orch --> loadTool
   orch --> loadSdk
@@ -26,12 +27,34 @@ flowchart TD
   loadSdk --> summary
   loadFrosting --> summary
   rebuild --> summary
+  summary --> snapshot
 ```
 
 ## Local run
 
 ```powershell
 dotnet run cake.cs -- --target=Test --framework=net10.0 --framework=net11.0 --package=Cake.FileHelpers --package=Cake.Git --package=Cake.Frosting.Git
+```
+
+## Snapshots
+
+The run does not fail just because a check failed. Many addins are not yet compatible with Cake 7 pre-release, so results are approval-tested instead (similar to [Verify](https://github.com/VerifyTests/Verify)):
+
+- After `Test`, each run's results are projected to `{ id, check, framework, status, reason }` rows (versions, exit codes and error messages are left out) and compared with `snapshots/{os}-{arch}-{tfm}.verified.json`.
+- Any difference, including a fix (`failed` to `passed`), fails the run and writes `build/snapshots/{os}-{arch}-{tfm}.received.json`. A missing verified file counts as empty.
+- Runs filtered with `--package` or `--shard` only compare the selected packages; rows for other packages are kept as-is in the received file.
+
+Accept local results, review, and commit:
+
+```powershell
+dotnet run cake.cs -- --target=Accept
+git diff snapshots/
+```
+
+Accept results from a CI run (requires the [GitHub CLI](https://cli.github.com/), logged in). On GitHub Actions, the `Teardown` uploads received snapshots as `snapshots-{os}-{arch}-{tfm}-{shard}` artifacts (and `results.json` as `results-…`):
+
+```powershell
+dotnet run cake.cs -- --target=Accept --run=<runId>
 ```
 
 ## Catalog

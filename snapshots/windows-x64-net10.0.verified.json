@@ -1,0 +1,44 @@
+[
+  {
+    "id": "Cake.FileHelpers",
+    "check": "inventory",
+    "framework": null,
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FileHelpers",
+    "check": "load-frosting",
+    "framework": "net10.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FileHelpers",
+    "check": "load-sdk",
+    "framework": "net10.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FileHelpers",
+    "check": "load-tool",
+    "framework": "net10.0",
+    "status": "passed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FileHelpers",
+    "check": "rebuild-warning",
+    "framework": "net10.0",
+    "status": "failed",
+    "reason": null
+  },
+  {
+    "id": "Cake.FileHelpers",
+    "check": "rebuild",
+    "framework": "net10.0",
+    "status": "passed",
+    "reason": null
+  }
+]
