@@ -17,7 +17,7 @@
     "id": "Cake.FileHelpers",
     "check": "load-sdk",
     "framework": "net10.0",
-    "status": "failed",
+    "status": "passed",
     "reason": null
   },
   {
