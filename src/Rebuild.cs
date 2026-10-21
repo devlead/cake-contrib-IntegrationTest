@@ -56,8 +56,9 @@ public static partial class Program
             }
 
             var names = string.Join(", ", projects.Select(p => p.GetFilename()));
-            // Not retried: a second build in the same tree can pass on outputs of the first (e.g. Cake.Warp's Fody resources).
-            BuildProjects(data, package, work, projects, check: "rebuild", warningsAsErrors: false);
+            // Only the restore is retried: a second build in the same tree can pass on outputs of the first (e.g. Cake.Warp's Fody resources).
+            RestoreProjects(data, package, work, projects);
+            BuildProjects(data, package, work, projects, check: "rebuild", warningsAsErrors: false, noRestore: true);
             Record(data, package.Id, "rebuild", "passed", detail: names, inventory: inventory);
 
             try
@@ -120,39 +121,94 @@ public static partial class Program
         }
     }
 
+    static void RestoreProjects(
+        BuildData data,
+        CatalogPackage package,
+        DirectoryPath work,
+        IReadOnlyList<FilePath> projects)
+    {
+        var binlogDir = BinlogDir(data, package, "rebuild");
+        TimeSpan[] delays = [TimeSpan.FromSeconds(30), TimeSpan.FromSeconds(60), TimeSpan.FromSeconds(120)];
+        foreach (var project in projects)
+        {
+            var binlog = binlogDir.CombineWithFilePath(BinlogName(work, project) + ".restore.binlog");
+            for (var attempt = 0; ; attempt++)
+            {
+                var output = new List<string>();
+                try
+                {
+                    DotNetRestore(project.FullPath, new DotNetRestoreSettings
+                    {
+                        WorkingDirectory = work,
+                        MSBuildSettings = CakeMSBuildSettings(data, warningsAsErrors: false).EnableBinaryLogger(binlog.FullPath),
+                        SetupProcessSettings = settings => settings.RedirectStandardOutput = true,
+                        PostAction = process => output.AddRange(process.GetStandardOutput())
+                    });
+                    output.ForEach(line => Information(line));
+                    break;
+                }
+                catch (CakeException ex)
+                {
+                    output.ForEach(line => Information(line));
+                    // NU1301: a source could not be reached (DNS, connection); anything else is a real restore failure.
+                    if (attempt == delays.Length || !output.Any(line => line.Contains("NU1301", StringComparison.Ordinal)))
+                    {
+                        throw;
+                    }
+
+                    Warning("{0} restore of {1} failed with NU1301 ({2}), retrying in {3}s ({4}/{5})", package.Id, project.GetFilename(), ex.Message, delays[attempt].TotalSeconds, attempt + 1, delays.Length);
+                    Thread.Sleep(delays[attempt]);
+                }
+            }
+        }
+    }
+
     static void BuildProjects(
         BuildData data,
         CatalogPackage package,
         DirectoryPath work,
         IReadOnlyList<FilePath> projects,
         string check,
-        bool warningsAsErrors)
+        bool warningsAsErrors,
+        bool noRestore = false)
     {
-        var binlogDir = data.Artifacts.Combine("binlog").Combine(package.Id).Combine(data.Framework).Combine(check);
-        EnsureDirectoryExists(binlogDir);
+        var binlogDir = BinlogDir(data, package, check);
         foreach (var project in projects)
         {
-            var relative = work.GetRelativePath(project).FullPath.Replace('\\', '/').Replace('/', '_');
-            var binlog = binlogDir.CombineWithFilePath(relative + ".binlog");
+            var binlog = binlogDir.CombineWithFilePath(BinlogName(work, project) + ".binlog");
             DotNetBuild(project.FullPath, new DotNetBuildSettings
             {
                 Configuration = "Release",
                 WorkingDirectory = work,
-                MSBuildSettings = new DotNetMSBuildSettings()
-                    .WithProperty("TargetFrameworks", data.Framework)
-                    .WithProperty("TargetFramework", data.Framework)
-                    .WithProperty("TreatWarningsAsErrors", warningsAsErrors ? "true" : "false")
-                    .WithProperty("CustomAfterMicrosoftCommonTargets", data.TargetsPath.FullPath)
-                    .WithProperty("CakePrereleaseCoreVersion", data.Versions.Core)
-                    .WithProperty("CakePrereleaseCommonVersion", data.Versions.Common)
-                    .WithProperty("CakePrereleaseFrostingVersion", data.Versions.Frosting)
-                    .WithProperty("CakePrereleaseSdkVersion", data.Versions.Sdk)
-                    .WithProperty("EnableSourceLink", "false")
-                    .WithProperty("PublishRepositoryUrl", "false")
-                    .WithProperty("EmbedUntrackedSources", "false")
-                    .WithProperty("DeterministicSourcePaths", "false")
-                    .EnableBinaryLogger(binlog.FullPath)
+                NoRestore = noRestore,
+                MSBuildSettings = CakeMSBuildSettings(data, warningsAsErrors).EnableBinaryLogger(binlog.FullPath)
             });
         }
     }
+
+    // Restore and build must see the same properties: the targets file rewrites Cake package versions.
+    static DotNetMSBuildSettings CakeMSBuildSettings(BuildData data, bool warningsAsErrors)
+        => new DotNetMSBuildSettings()
+            .WithProperty("TargetFrameworks", data.Framework)
+            .WithProperty("TargetFramework", data.Framework)
+            .WithProperty("TreatWarningsAsErrors", warningsAsErrors ? "true" : "false")
+            .WithProperty("CustomAfterMicrosoftCommonTargets", data.TargetsPath.FullPath)
+            .WithProperty("CakePrereleaseCoreVersion", data.Versions.Core)
+            .WithProperty("CakePrereleaseCommonVersion", data.Versions.Common)
+            .WithProperty("CakePrereleaseFrostingVersion", data.Versions.Frosting)
+            .WithProperty("CakePrereleaseSdkVersion", data.Versions.Sdk)
+            .WithProperty("EnableSourceLink", "false")
+            .WithProperty("PublishRepositoryUrl", "false")
+            .WithProperty("EmbedUntrackedSources", "false")
+            .WithProperty("DeterministicSourcePaths", "false");
+
+    static DirectoryPath BinlogDir(BuildData data, CatalogPackage package, string check)
+    {
+        var binlogDir = data.Artifacts.Combine("binlog").Combine(package.Id).Combine(data.Framework).Combine(check);
+        EnsureDirectoryExists(binlogDir);
+        return binlogDir;
+    }
+
+    static string BinlogName(DirectoryPath work, FilePath project)
+        => work.GetRelativePath(project).FullPath.Replace('\\', '/').Replace('/', '_');
 }
