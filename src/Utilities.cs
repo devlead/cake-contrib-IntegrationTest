@@ -69,6 +69,25 @@ public static partial class Program
         }
     }
 
+    // Retries once so transient network failures (NuGet metadata, DNS) don't show up as snapshot changes.
+    // Returns true when the action only succeeded on retry.
+    public static bool RetryOnce(string description, Action action)
+    {
+        try
+        {
+            action();
+            return false;
+        }
+        catch (Exception ex)
+        {
+            Warning("{0} failed ({1}), retrying once in 10s", description, ex.Message);
+            Thread.Sleep(TimeSpan.FromSeconds(10));
+            action();
+            Warning("{0} passed on retry", description);
+            return true;
+        }
+    }
+
     public static DirectoryPath WorkDir(BuildData data, CatalogPackage package, string leaf)
         => data.WorkRoot.Combine(package.Id).Combine(leaf);
 

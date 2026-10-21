@@ -56,8 +56,11 @@ public static partial class Program
             }
 
             var names = string.Join(", ", projects.Select(p => p.GetFilename()));
-            BuildProjects(data, package, work, projects, check: "rebuild", warningsAsErrors: false);
-            Record(data, package.Id, "rebuild", "passed", detail: names, inventory: inventory);
+            // Restore happens here, so retry transient feed failures; rebuild-warning reuses the restored packages.
+            var retried = RetryOnce(
+                $"{package.Id} rebuild",
+                () => BuildProjects(data, package, work, projects, check: "rebuild", warningsAsErrors: false));
+            Record(data, package.Id, "rebuild", "passed", detail: retried ? $"{names} (passed on retry)" : names, inventory: inventory);
 
             try
             {

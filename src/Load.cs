@@ -56,8 +56,8 @@ public static partial class Program
         try
         {
             Information("{0} load-{1} {2}", package.Id, runner, version);
-            run();
-            Record(data, package.Id, $"load-{runner}", "passed", inventory: inventory);
+            var retried = RetryOnce($"{package.Id} load-{runner}", run);
+            Record(data, package.Id, $"load-{runner}", "passed", detail: retried ? "passed on retry" : null, inventory: inventory);
         }
         catch (Exception ex)
         {
