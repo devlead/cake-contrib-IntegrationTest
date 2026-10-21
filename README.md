@@ -4,8 +4,8 @@ Nightly checks that cake-contrib addins and modules still load and compile again
 
 Each GitHub Actions job runs `cake.cs` (Cake.Sdk) on one OS and one target framework (`net10.0` or `net11.0`). For every catalog package it:
 
-- Loads the latest stable NuGet.org package in Cake.Tool, Cake.Sdk, and Cake.Frosting
-- Rebuilds the GitHub source against the latest pre-release `Cake.Core` and `Cake.Common`
+- Loads the latest stable NuGet.org release of the addin/module into the latest pre-release Cake.Tool, Cake.Sdk, and Cake.Frosting from the Cake feed
+- Rebuilds the addin's GitHub source against the latest pre-release Cake packages from the Cake feed (see [Cake versions](#cake-versions))
 
 ```mermaid
 flowchart TD
