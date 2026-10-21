@@ -26,23 +26,19 @@ public static partial class Program
             if (!DirectoryExists(work))
             {
                 EnsureDirectoryExists(parent);
-                var existing = GetDirectories(data.Artifacts.FullPath + "/*/" + package.Id + "/src")
+                // Reuse a checkout of the same repository from any framework or sibling package (e.g. the Cake.Issues monorepo).
+                var existing = data.Packages
+                    .Where(p => string.Equals(p.Repository, package.Repository, StringComparison.OrdinalIgnoreCase))
+                    .SelectMany(p => GetDirectories(data.Artifacts.FullPath + "/*/" + p.Id + "/src"))
                     .FirstOrDefault(d => DirectoryExists(d) && GetFiles(d.FullPath + "/**/*.csproj").Any());
                 if (existing is not null)
                 {
+                    Information("{0} reusing {1}", package.Id, existing);
                     CopySourceTree(existing, work);
                 }
                 else
                 {
-                    var exit = StartProcess("git", new ProcessSettings
-                    {
-                        WorkingDirectory = parent,
-                        Arguments = $"clone --depth 1 https://github.com/{package.Repository}.git \"{work.GetDirectoryName()}\""
-                    });
-                    if (exit != 0)
-                    {
-                        throw new CakeException($"git clone failed with exit code {exit}");
-                    }
+                    CloneRepository(package.Repository, parent, work);
                 }
             }
 
@@ -80,6 +76,46 @@ public static partial class Program
             Error("{0} rebuild: {1}", package.Id, ex.Message);
             Record(data, package.Id, "rebuild", "failed", detail: ex.Message, inventory: inventory);
             Record(data, package.Id, "rebuild-warning", "skipped", reason: "rebuild failed", inventory: inventory);
+        }
+    }
+
+    static void CloneRepository(string repository, DirectoryPath parent, DirectoryPath work)
+    {
+        const int attempts = 3;
+        for (var attempt = 1; ; attempt++)
+        {
+            var exit = StartProcess("git", new ProcessSettings
+            {
+                WorkingDirectory = parent,
+                // core.longpaths: deep test snapshot paths (e.g. Cake.Issues) exceed MAX_PATH on Windows.
+                Arguments = $"-c core.longpaths=true clone --depth 1 https://github.com/{repository}.git \"{work.GetDirectoryName()}\"",
+                // LFS content (docs images etc.) is not needed to build and is one more network round trip;
+                // never prompt for credentials when a repository is missing or private.
+                EnvironmentVariables = new Dictionary<string, string>
+                {
+                    ["GIT_LFS_SKIP_SMUDGE"] = "1",
+                    ["GIT_TERMINAL_PROMPT"] = "0",
+                    ["GCM_INTERACTIVE"] = "never"
+                }
+            });
+            if (exit == 0)
+            {
+                return;
+            }
+
+            if (DirectoryExists(work))
+            {
+                DeleteDirectory(work, new DeleteDirectorySettings { Recursive = true, Force = true });
+            }
+
+            if (attempt == attempts)
+            {
+                throw new CakeException($"git clone failed with exit code {exit}");
+            }
+
+            var delay = TimeSpan.FromSeconds(10 * attempt);
+            Warning("git clone of {0} failed with exit code {1}, retrying in {2}s ({3}/{4})", repository, exit, delay.TotalSeconds, attempt, attempts);
+            Thread.Sleep(delay);
         }
     }
 
