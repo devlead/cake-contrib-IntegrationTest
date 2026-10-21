@@ -336,48 +336,6 @@
     "reason": null
   },
   {
-    "id": "Cake.AppCenter",
-    "check": "inventory",
-    "framework": null,
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.AppCenter",
-    "check": "load-frosting",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.AppCenter",
-    "check": "load-sdk",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.AppCenter",
-    "check": "load-tool",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.AppCenter",
-    "check": "rebuild-warning",
-    "framework": "net10.0",
-    "status": "failed",
-    "reason": null
-  },
-  {
-    "id": "Cake.AppCenter",
-    "check": "rebuild",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
     "id": "Cake.AppVeyor",
     "check": "inventory",
     "framework": null,
@@ -2247,48 +2205,6 @@
     "reason": null
   },
   {
-    "id": "Cake.Figlet",
-    "check": "inventory",
-    "framework": null,
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Figlet",
-    "check": "load-frosting",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Figlet",
-    "check": "load-sdk",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Figlet",
-    "check": "load-tool",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Figlet",
-    "check": "rebuild-warning",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Figlet",
-    "check": "rebuild",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
     "id": "Cake.FileHelpers",
     "check": "inventory",
     "framework": null,
@@ -2835,48 +2751,6 @@
     "reason": null
   },
   {
-    "id": "Cake.Frosting.Issues.PullRequests.AppVeyor",
-    "check": "inventory",
-    "framework": null,
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Frosting.Issues.PullRequests.AppVeyor",
-    "check": "load-frosting",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Frosting.Issues.PullRequests.AppVeyor",
-    "check": "load-sdk",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Frosting.Issues.PullRequests.AppVeyor",
-    "check": "load-tool",
-    "framework": "net10.0",
-    "status": "skipped",
-    "reason": "runner not included"
-  },
-  {
-    "id": "Cake.Frosting.Issues.PullRequests.AppVeyor",
-    "check": "rebuild-warning",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Frosting.Issues.PullRequests.AppVeyor",
-    "check": "rebuild",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
     "id": "Cake.Frosting.Issues.PullRequests.AzureDevOps",
     "check": "inventory",
     "framework": null,
@@ -2913,48 +2787,6 @@
   },
   {
     "id": "Cake.Frosting.Issues.PullRequests.AzureDevOps",
-    "check": "rebuild",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Frosting.Issues.PullRequests.GitHubActions",
-    "check": "inventory",
-    "framework": null,
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Frosting.Issues.PullRequests.GitHubActions",
-    "check": "load-frosting",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Frosting.Issues.PullRequests.GitHubActions",
-    "check": "load-sdk",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Frosting.Issues.PullRequests.GitHubActions",
-    "check": "load-tool",
-    "framework": "net10.0",
-    "status": "skipped",
-    "reason": "runner not included"
-  },
-  {
-    "id": "Cake.Frosting.Issues.PullRequests.GitHubActions",
-    "check": "rebuild-warning",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Frosting.Issues.PullRequests.GitHubActions",
     "check": "rebuild",
     "framework": "net10.0",
     "status": "passed",
@@ -4557,48 +4389,6 @@
     "reason": null
   },
   {
-    "id": "Cake.Issues.PullRequests.AppVeyor",
-    "check": "inventory",
-    "framework": null,
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Issues.PullRequests.AppVeyor",
-    "check": "load-frosting",
-    "framework": "net10.0",
-    "status": "skipped",
-    "reason": "runner not included"
-  },
-  {
-    "id": "Cake.Issues.PullRequests.AppVeyor",
-    "check": "load-sdk",
-    "framework": "net10.0",
-    "status": "skipped",
-    "reason": "runner not included"
-  },
-  {
-    "id": "Cake.Issues.PullRequests.AppVeyor",
-    "check": "load-tool",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Issues.PullRequests.AppVeyor",
-    "check": "rebuild-warning",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Issues.PullRequests.AppVeyor",
-    "check": "rebuild",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
     "id": "Cake.Issues.PullRequests.AzureDevOps",
     "check": "inventory",
     "framework": null,
@@ -4635,48 +4425,6 @@
   },
   {
     "id": "Cake.Issues.PullRequests.AzureDevOps",
-    "check": "rebuild",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Issues.PullRequests.GitHubActions",
-    "check": "inventory",
-    "framework": null,
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Issues.PullRequests.GitHubActions",
-    "check": "load-frosting",
-    "framework": "net10.0",
-    "status": "skipped",
-    "reason": "runner not included"
-  },
-  {
-    "id": "Cake.Issues.PullRequests.GitHubActions",
-    "check": "load-sdk",
-    "framework": "net10.0",
-    "status": "skipped",
-    "reason": "runner not included"
-  },
-  {
-    "id": "Cake.Issues.PullRequests.GitHubActions",
-    "check": "load-tool",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Issues.PullRequests.GitHubActions",
-    "check": "rebuild-warning",
-    "framework": "net10.0",
-    "status": "passed",
-    "reason": null
-  },
-  {
-    "id": "Cake.Issues.PullRequests.GitHubActions",
     "check": "rebuild",
     "framework": "net10.0",
     "status": "passed",

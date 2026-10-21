@@ -40,11 +40,6 @@
     "repository": "cake-contrib/Cake.Apigee"
   },
   {
-    "id": "Cake.AppCenter",
-    "kind": "addin",
-    "repository": "cake-contrib/Cake.AppCenter"
-  },
-  {
     "id": "Cake.AppleSimulator",
     "kind": "addin",
     "repository": "cake-contrib/Cake.AppleSimulator"
@@ -288,11 +283,6 @@
     "repository": "cake-contrib/Cake.Fastlane"
   },
   {
-    "id": "Cake.Figlet",
-    "kind": "addin",
-    "repository": "cake-contrib/Cake.Figlet"
-  },
-  {
     "id": "Cake.FileHelpers",
     "kind": "addin",
     "repository": "cake-contrib/Cake.FileHelpers"
@@ -338,105 +328,91 @@
   {
     "id": "Cake.Frosting.Issues.DocFx",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.DocFx",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "sdk", "frosting" ],
     "usings": [ "Cake.Issues.DocFx" ]
   },
   {
     "id": "Cake.Frosting.Issues.EsLint",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.EsLint",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "sdk", "frosting" ],
     "usings": [ "Cake.Issues.EsLint" ]
   },
   {
     "id": "Cake.Frosting.Issues.GitRepository",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.GitRepository",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "sdk", "frosting" ],
     "usings": [ "Cake.Issues.GitRepository" ]
   },
   {
     "id": "Cake.Frosting.Issues.InspectCode",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.InspectCode",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "sdk", "frosting" ],
     "usings": [ "Cake.Issues.InspectCode" ]
   },
   {
     "id": "Cake.Frosting.Issues.Markdownlint",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.Markdownlint",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "sdk", "frosting" ],
     "usings": [ "Cake.Issues.Markdownlint" ]
   },
   {
     "id": "Cake.Frosting.Issues.MsBuild",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.MsBuild",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "sdk", "frosting" ],
     "usings": [ "Cake.Issues.MsBuild" ]
   },
   {
     "id": "Cake.Frosting.Issues.PullRequests",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.PullRequests",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "sdk", "frosting" ],
     "usings": [ "Cake.Issues.PullRequests" ]
   },
   {
-    "id": "Cake.Frosting.Issues.PullRequests.AppVeyor",
-    "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.PullRequests.AppVeyor",
-    "runners": [ "sdk", "frosting" ],
-    "usings": [ "Cake.Issues.PullRequests.AppVeyor" ]
-  },
-  {
     "id": "Cake.Frosting.Issues.PullRequests.AzureDevOps",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.PullRequests.AzureDevOps",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "sdk", "frosting" ],
     "usings": [ "Cake.Issues.PullRequests.AzureDevOps" ]
   },
   {
-    "id": "Cake.Frosting.Issues.PullRequests.GitHubActions",
-    "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.PullRequests.GitHubActions",
-    "runners": [ "sdk", "frosting" ],
-    "usings": [ "Cake.Issues.PullRequests.GitHubActions" ]
-  },
-  {
     "id": "Cake.Frosting.Issues.Reporting",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.Reporting",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "sdk", "frosting" ],
     "usings": [ "Cake.Issues.Reporting" ]
   },
   {
     "id": "Cake.Frosting.Issues.Reporting.Console",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.Reporting.Console",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "sdk", "frosting" ],
     "usings": [ "Cake.Issues.Reporting.Console" ]
   },
   {
     "id": "Cake.Frosting.Issues.Reporting.Generic",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.Reporting.Generic",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "sdk", "frosting" ],
     "usings": [ "Cake.Issues.Reporting.Generic" ]
   },
   {
     "id": "Cake.Frosting.Issues.Reporting.Sarif",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.Reporting.Sarif",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "sdk", "frosting" ],
     "usings": [ "Cake.Issues.Reporting.Sarif" ]
   },
   {
     "id": "Cake.Frosting.Issues.Sarif",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.Sarif",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "sdk", "frosting" ],
     "usings": [ "Cake.Issues.Sarif" ]
   },
@@ -450,7 +426,7 @@
   {
     "id": "Cake.Frosting.Issues.Terraform",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.Terraform",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "sdk", "frosting" ],
     "usings": [ "Cake.Issues.Terraform" ]
   },
@@ -587,7 +563,7 @@
   {
     "id": "Cake.Issues.DocFx",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.DocFx",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "tool" ]
   },
   {
@@ -599,85 +575,73 @@
   {
     "id": "Cake.Issues.EsLint",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.EsLint",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "tool" ]
   },
   {
     "id": "Cake.Issues.GitRepository",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.GitRepository",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "tool" ]
   },
   {
     "id": "Cake.Issues.InspectCode",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.InspectCode",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "tool" ]
   },
   {
     "id": "Cake.Issues.Markdownlint",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.Markdownlint",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "tool" ]
   },
   {
     "id": "Cake.Issues.MsBuild",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.MsBuild",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "tool" ]
   },
   {
     "id": "Cake.Issues.PullRequests",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.PullRequests",
-    "runners": [ "tool" ]
-  },
-  {
-    "id": "Cake.Issues.PullRequests.AppVeyor",
-    "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.PullRequests.AppVeyor",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "tool" ]
   },
   {
     "id": "Cake.Issues.PullRequests.AzureDevOps",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.PullRequests.AzureDevOps",
-    "runners": [ "tool" ]
-  },
-  {
-    "id": "Cake.Issues.PullRequests.GitHubActions",
-    "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.PullRequests.GitHubActions",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "tool" ]
   },
   {
     "id": "Cake.Issues.Reporting",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.Reporting",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "tool" ]
   },
   {
     "id": "Cake.Issues.Reporting.Console",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.Reporting.Console",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "tool" ]
   },
   {
     "id": "Cake.Issues.Reporting.Generic",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.Reporting.Generic",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "tool" ]
   },
   {
     "id": "Cake.Issues.Reporting.Sarif",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.Reporting.Sarif",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "tool" ]
   },
   {
     "id": "Cake.Issues.Sarif",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.Sarif",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "tool" ]
   },
   {
@@ -689,7 +653,7 @@
   {
     "id": "Cake.Issues.Terraform",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.Issues.Terraform",
+    "repository": "cake-contrib/Cake.Issues",
     "runners": [ "tool" ]
   },
   {
