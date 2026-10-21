@@ -56,11 +56,9 @@ public static partial class Program
             }
 
             var names = string.Join(", ", projects.Select(p => p.GetFilename()));
-            // Restore happens here, so retry transient feed failures; rebuild-warning reuses the restored packages.
-            var retried = RetryOnce(
-                $"{package.Id} rebuild",
-                () => BuildProjects(data, package, work, projects, check: "rebuild", warningsAsErrors: false));
-            Record(data, package.Id, "rebuild", "passed", detail: retried ? $"{names} (passed on retry)" : names, inventory: inventory);
+            // Not retried: a second build in the same tree can pass on outputs of the first (e.g. Cake.Warp's Fody resources).
+            BuildProjects(data, package, work, projects, check: "rebuild", warningsAsErrors: false);
+            Record(data, package.Id, "rebuild", "passed", detail: names, inventory: inventory);
 
             try
             {
