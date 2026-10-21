@@ -1084,7 +1084,7 @@
   {
     "id": "Cake.VsixSignTool",
     "kind": "addin",
-    "repository": "cake-contrib/Cake.VsixSignTool"
+    "repository": "MihaMarkic/Cake.VsixSignTool"
   },
   {
     "id": "Cake.VsMetrics",
