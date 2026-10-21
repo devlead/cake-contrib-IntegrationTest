@@ -2572,7 +2572,7 @@
     "id": "Cake.Frosting.Issues.EsLint",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "failed",
+    "status": "passed",
     "reason": null
   },
   {
@@ -2908,7 +2908,7 @@
     "id": "Cake.Frosting.Issues.Reporting.Generic",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "failed",
+    "status": "passed",
     "reason": null
   },
   {
@@ -2950,7 +2950,7 @@
     "id": "Cake.Frosting.Issues.Reporting.Sarif",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "failed",
+    "status": "passed",
     "reason": null
   },
   {
@@ -3034,7 +3034,7 @@
     "id": "Cake.Frosting.Issues.Sarif",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "failed",
+    "status": "passed",
     "reason": null
   },
   {
@@ -4210,7 +4210,7 @@
     "id": "Cake.Issues.EsLint",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "failed",
+    "status": "passed",
     "reason": null
   },
   {
@@ -4546,7 +4546,7 @@
     "id": "Cake.Issues.Reporting.Generic",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "failed",
+    "status": "passed",
     "reason": null
   },
   {
@@ -4588,7 +4588,7 @@
     "id": "Cake.Issues.Reporting.Sarif",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "failed",
+    "status": "passed",
     "reason": null
   },
   {
@@ -4672,7 +4672,7 @@
     "id": "Cake.Issues.Sarif",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "failed",
+    "status": "passed",
     "reason": null
   },
   {
@@ -7759,14 +7759,14 @@
     "id": "Cake.VsixSignTool",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "skipped",
-    "reason": "rebuild failed"
+    "status": "failed",
+    "reason": null
   },
   {
     "id": "Cake.VsixSignTool",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "failed",
+    "status": "passed",
     "reason": null
   },
   {
