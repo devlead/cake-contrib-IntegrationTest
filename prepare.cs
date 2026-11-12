@@ -1,4 +1,4 @@
-#:sdk Cake.Sdk@7.0.0-alpha0053
+#:sdk Cake.Sdk@7.0.0
 #:property IncludeAdditionalFiles=src/Versions.cs
 #:property TargetFramework=net10.0
 
