@@ -59,7 +59,6 @@ jobs:
         uses: actions/setup-dotnet@v6
         with:
           dotnet-version: ${{ matrix.framework == 'net10.0' && '10.0.x' || '11.0.x' }}
-          dotnet-quality: ${{ matrix.framework == 'net11.0' && 'preview' || '' }}
 
       - name: Use resolved Cake versions
         uses: cake-build/cake-action@v3.0.1
