@@ -57,14 +57,16 @@ public static partial class Program
 
             var names = string.Join(", ", projects.Select(p => p.GetFilename()));
             // Only the restore is retried: a second build in the same tree can pass on outputs of the first (e.g. Cake.Warp's Fody resources).
-            RestoreProjects(data, package, work, projects);
+            RestoreProjects(data, package, work, projects, check: "rebuild", warningsAsErrors: false);
             BuildProjects(data, package, work, projects, check: "rebuild", warningsAsErrors: false, noRestore: true);
             Record(data, package.Id, "rebuild", "passed", detail: names, inventory: inventory);
 
             try
             {
                 Information("{0} rebuild-warning {1}", package.Id, package.Repository);
-                BuildProjects(data, package, work, projects, check: "rebuild-warning", warningsAsErrors: true);
+                // The implicit restore of dotnet build does not honour the forced TargetFramework (e.g. a net11.0-only project on net10.0).
+                RestoreProjects(data, package, work, projects, check: "rebuild-warning", warningsAsErrors: true);
+                BuildProjects(data, package, work, projects, check: "rebuild-warning", warningsAsErrors: true, noRestore: true);
                 Record(data, package.Id, "rebuild-warning", "passed", detail: names, inventory: inventory);
             }
             catch (Exception ex)
@@ -125,9 +127,11 @@ public static partial class Program
         BuildData data,
         CatalogPackage package,
         DirectoryPath work,
-        IReadOnlyList<FilePath> projects)
+        IReadOnlyList<FilePath> projects,
+        string check,
+        bool warningsAsErrors)
     {
-        var binlogDir = BinlogDir(data, package, "rebuild");
+        var binlogDir = BinlogDir(data, package, check);
         TimeSpan[] delays = [TimeSpan.FromSeconds(30), TimeSpan.FromSeconds(60), TimeSpan.FromSeconds(120)];
         foreach (var project in projects)
         {
@@ -140,7 +144,7 @@ public static partial class Program
                     DotNetRestore(project.FullPath, new DotNetRestoreSettings
                     {
                         WorkingDirectory = work,
-                        MSBuildSettings = CakeMSBuildSettings(data, warningsAsErrors: false).EnableBinaryLogger(binlog.FullPath),
+                        MSBuildSettings = CakeMSBuildSettings(data, warningsAsErrors).EnableBinaryLogger(binlog.FullPath),
                         SetupProcessSettings = settings => settings.RedirectStandardOutput = true,
                         PostAction = process => output.AddRange(process.GetStandardOutput())
                     });
