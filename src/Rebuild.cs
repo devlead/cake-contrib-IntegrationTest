@@ -43,6 +43,7 @@ public static partial class Program
             }
 
             Harness.CopyNuGetConfig(Context, data.Root, work);
+            Harness.OverrideNestedNuGetConfigs(Context, data.Root, work);
             WriteSdkGlobalJson(work, data.Framework);
 
             var projects = GetFiles(work.FullPath + "/**/*.csproj")

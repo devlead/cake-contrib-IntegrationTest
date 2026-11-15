@@ -580,6 +580,22 @@ public static class Harness
         context.CopyFile(sourceRoot.CombineWithFilePath("nuget.config"), destination.CombineWithFilePath("nuget.config"));
     }
 
+    // A nested nuget.config (e.g. Cake.Email's Source/nuget.config) is closer to the project and its <clear /> replaces our
+    // sources with differently keyed ones, while our packageSourceMapping still applies, so nothing maps (NU1100).
+    // Overwrite every nested config with ours so the harness sources, mapping and Cake feed patching always govern restore.
+    public static void OverrideNestedNuGetConfigs(ICakeContext context, DirectoryPath sourceRoot, DirectoryPath destination)
+    {
+        var config = sourceRoot.CombineWithFilePath("nuget.config").FullPath;
+        foreach (var file in System.IO.Directory.EnumerateFiles(destination.FullPath, "*", SearchOption.AllDirectories))
+        {
+            if (string.Equals(System.IO.Path.GetFileName(file), "nuget.config", StringComparison.OrdinalIgnoreCase))
+            {
+                context.Verbose("Overriding nested NuGet config {0}", file);
+                System.IO.File.Copy(config, file, overwrite: true);
+            }
+        }
+    }
+
     public static bool ReferencesCake(ICakeContext context, FilePath project)
     {
         var text = context.FileSystem.GetFile(project).ReadAllText();
