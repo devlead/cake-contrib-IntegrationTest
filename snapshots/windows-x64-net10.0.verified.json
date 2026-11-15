@@ -1900,7 +1900,7 @@
     "id": "Cake.Email",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "failed",
+    "status": "passed",
     "reason": null
   },
   {
@@ -2404,14 +2404,14 @@
     "id": "Cake.Frosting.Issues.BuildServer.AppVeyor",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.BuildServer.AppVeyor",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -2446,14 +2446,14 @@
     "id": "Cake.Frosting.Issues.BuildServer.GitHubActions",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.BuildServer.GitHubActions",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -2488,14 +2488,14 @@
     "id": "Cake.Frosting.Issues.BuildServer",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.BuildServer",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -2530,14 +2530,14 @@
     "id": "Cake.Frosting.Issues.DocFx",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.DocFx",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -2572,14 +2572,14 @@
     "id": "Cake.Frosting.Issues.EsLint",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.EsLint",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -2614,14 +2614,14 @@
     "id": "Cake.Frosting.Issues.GitRepository",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.GitRepository",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -2656,14 +2656,14 @@
     "id": "Cake.Frosting.Issues.InspectCode",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.InspectCode",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -2698,14 +2698,14 @@
     "id": "Cake.Frosting.Issues.Markdownlint",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.Markdownlint",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -2740,14 +2740,14 @@
     "id": "Cake.Frosting.Issues.MsBuild",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.MsBuild",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -2782,14 +2782,14 @@
     "id": "Cake.Frosting.Issues.PullRequests.AzureDevOps",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.PullRequests.AzureDevOps",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -2824,14 +2824,14 @@
     "id": "Cake.Frosting.Issues.PullRequests",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.PullRequests",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -2866,14 +2866,14 @@
     "id": "Cake.Frosting.Issues.Reporting.Console",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.Reporting.Console",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -2908,14 +2908,14 @@
     "id": "Cake.Frosting.Issues.Reporting.Generic",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.Reporting.Generic",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -2950,14 +2950,14 @@
     "id": "Cake.Frosting.Issues.Reporting.Sarif",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.Reporting.Sarif",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -2992,14 +2992,14 @@
     "id": "Cake.Frosting.Issues.Reporting",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.Reporting",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -3034,14 +3034,14 @@
     "id": "Cake.Frosting.Issues.Sarif",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.Sarif",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -3076,14 +3076,14 @@
     "id": "Cake.Frosting.Issues.Tap",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.Tap",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -3118,14 +3118,14 @@
     "id": "Cake.Frosting.Issues.Terraform",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Frosting.Issues.Terraform",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4000,14 +4000,14 @@
     "id": "Cake.Issues.BuildServer.AppVeyor",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.BuildServer.AppVeyor",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4042,14 +4042,14 @@
     "id": "Cake.Issues.BuildServer.GitHubActions",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.BuildServer.GitHubActions",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4084,14 +4084,14 @@
     "id": "Cake.Issues.BuildServer",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.BuildServer",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4126,14 +4126,14 @@
     "id": "Cake.Issues.DocFx",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.DocFx",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4210,14 +4210,14 @@
     "id": "Cake.Issues.EsLint",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.EsLint",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4252,14 +4252,14 @@
     "id": "Cake.Issues.GitRepository",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.GitRepository",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4294,14 +4294,14 @@
     "id": "Cake.Issues.InspectCode",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.InspectCode",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4336,14 +4336,14 @@
     "id": "Cake.Issues.Markdownlint",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.Markdownlint",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4378,14 +4378,14 @@
     "id": "Cake.Issues.MsBuild",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.MsBuild",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4420,14 +4420,14 @@
     "id": "Cake.Issues.PullRequests.AzureDevOps",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.PullRequests.AzureDevOps",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4462,14 +4462,14 @@
     "id": "Cake.Issues.PullRequests",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.PullRequests",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4504,14 +4504,14 @@
     "id": "Cake.Issues.Reporting.Console",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.Reporting.Console",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4546,14 +4546,14 @@
     "id": "Cake.Issues.Reporting.Generic",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.Reporting.Generic",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4588,14 +4588,14 @@
     "id": "Cake.Issues.Reporting.Sarif",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.Reporting.Sarif",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4630,14 +4630,14 @@
     "id": "Cake.Issues.Reporting",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.Reporting",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4672,14 +4672,14 @@
     "id": "Cake.Issues.Sarif",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.Sarif",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4714,14 +4714,14 @@
     "id": "Cake.Issues.Tap",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.Tap",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4756,14 +4756,14 @@
     "id": "Cake.Issues.Terraform",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues.Terraform",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
@@ -4798,14 +4798,14 @@
     "id": "Cake.Issues",
     "check": "rebuild-warning",
     "framework": "net10.0",
-    "status": "passed",
-    "reason": null
+    "status": "skipped",
+    "reason": "rebuild failed"
   },
   {
     "id": "Cake.Issues",
     "check": "rebuild",
     "framework": "net10.0",
-    "status": "passed",
+    "status": "failed",
     "reason": null
   },
   {
