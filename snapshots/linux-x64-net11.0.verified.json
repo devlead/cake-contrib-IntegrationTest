@@ -1900,7 +1900,7 @@
     "id": "Cake.Email",
     "check": "rebuild-warning",
     "framework": "net11.0",
-    "status": "failed",
+    "status": "passed",
     "reason": null
   },
   {
